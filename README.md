@@ -182,7 +182,7 @@ A full credits page is available here:
 - **Project creator and lead developer:** Duke of Eskdaleton
 - **Project:** Beneath the Maroon Sky — Rumburg
 - **Application:** HOI4 Character Creator
-- **Development support:** OpenAI ChatGPT
+- **Development correction:** OpenAI ChatGPT
 - **Interface framework:** CustomTkinter
 - **Image processing:** Pillow
 - **Windows packaging:** PyInstaller
