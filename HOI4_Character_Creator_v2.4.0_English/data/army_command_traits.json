@@ -1,0 +1,450 @@
+{
+    "source": "00_traits.txt",
+    "army_chief": [
+        "army_chief_defensive_1",
+        "army_chief_defensive_2",
+        "army_chief_defensive_3",
+        "army_chief_offensive_1",
+        "army_chief_offensive_2",
+        "army_chief_offensive_3",
+        "army_chief_old_guard",
+        "army_chief_drill_1",
+        "army_chief_drill_2",
+        "army_chief_drill_3",
+        "army_chief_reform_1",
+        "army_chief_reform_2",
+        "army_chief_reform_3",
+        "army_chief_organizational_1",
+        "army_chief_organizational_2",
+        "army_chief_organizational_3",
+        "army_chief_planning_1",
+        "army_chief_planning_2",
+        "army_chief_planning_3",
+        "army_chief_morale_1",
+        "army_chief_morale_2",
+        "army_chief_morale_3",
+        "army_chief_maneuver_1",
+        "army_chief_maneuver_2",
+        "army_chief_maneuver_3",
+        "army_chief_entrenchment_1",
+        "army_chief_entrenchment_2",
+        "army_chief_entrenchment_3",
+        "army_chief_army_high_command"
+    ],
+    "army_high_command": [
+        "army_entrenchment_1",
+        "army_entrenchment_2",
+        "army_entrenchment_3",
+        "army_armored_1",
+        "army_armored_2",
+        "army_armored_3",
+        "army_artillery_1",
+        "army_artillery_2",
+        "army_artillery_3",
+        "army_infantry_1",
+        "army_infantry_2",
+        "army_infantry_3",
+        "army_commando_1",
+        "army_commando_2",
+        "army_commando_3",
+        "army_cavalry_1",
+        "army_cavalry_2",
+        "army_cavalry_3",
+        "army_CombinedArms_1",
+        "army_CombinedArms_2",
+        "army_CombinedArms_3",
+        "army_regrouping_1",
+        "army_regrouping_2",
+        "army_regrouping_3",
+        "army_concealment_1",
+        "army_concealment_2",
+        "army_concealment_3",
+        "army_logistics_1",
+        "army_logistics_2",
+        "army_logistics_3",
+        "army_radio_intelligence_1",
+        "army_radio_intelligence_2",
+        "army_radio_intelligence_3",
+        "army_german_ground_commander"
+    ],
+    "definitions": {
+        "army_chief_defensive_1": {
+            "name": "army_chief_defensive_1",
+            "definition": "\tarmy_chief_defensive_1 = { # +5 Defensive efficiency\n\t\tsprite = 9\n\t\tarmy_defence_factor = 0.05\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_defensive_2": {
+            "name": "army_chief_defensive_2",
+            "definition": "\tarmy_chief_defensive_2 = { # +10 Defensive efficiency\n\t\tsprite = 9\n\t\tarmy_defence_factor = 0.1\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_defensive_3": {
+            "name": "army_chief_defensive_3",
+            "definition": "\tarmy_chief_defensive_3 = { # +15 Defensive efficiency\n\t\tsprite = 9\n\t\tarmy_defence_factor = 0.15\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_offensive_1": {
+            "name": "army_chief_offensive_1",
+            "definition": "\tarmy_chief_offensive_1 = { # +5 Offensive efficiency\n\t\tsprite = 7\n\t\tarmy_attack_factor = 0.05\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_offensive_2": {
+            "name": "army_chief_offensive_2",
+            "definition": "\tarmy_chief_offensive_2 = { # +10 Offensive efficiency\n\t\tsprite = 7\n\t\tarmy_attack_factor = 0.1\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_offensive_3": {
+            "name": "army_chief_offensive_3",
+            "definition": "\tarmy_chief_offensive_3 = { # +15 Offensive efficiency\n\t\tsprite = 7\n\t\tarmy_attack_factor = 0.15\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_old_guard": {
+            "name": "army_chief_old_guard",
+            "definition": "\tarmy_chief_old_guard = { # Rate at which field experience is gained decreases by 10%\n\t\tsprite = 5 # Should not need sprite, should mostly be secondary\n\t\texperience_gain_army = @chief_experience_gain_low\n\t\tmax_command_power = 10\n\n\t\tai_will_do = {\n\t\t\tfactor = 0.5\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_drill_1": {
+            "name": "army_chief_drill_1",
+            "definition": "\tarmy_chief_drill_1 = { # Decreases training time for ground units\n\t\tsprite = 5\n\t\ttraining_time_army_factor = -0.05\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_drill_2": {
+            "name": "army_chief_drill_2",
+            "definition": "\tarmy_chief_drill_2 = { # Decreases training time for ground units\n\t\tsprite = 5\n\t\ttraining_time_army_factor = -0.1\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_drill_3": {
+            "name": "army_chief_drill_3",
+            "definition": "\tarmy_chief_drill_3 = { # Decreases training time for ground units\n\t\tsprite = 5\n\t\ttraining_time_army_factor = -0.15\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_reform_1": {
+            "name": "army_chief_reform_1",
+            "definition": "\tarmy_chief_reform_1 = {\n\t\tsprite = 5\n\t\texperience_gain_army = @chief_experience_gain_low\n\t\texperience_gain_army_factor = 0.05\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_reform_2": {
+            "name": "army_chief_reform_2",
+            "definition": "\tarmy_chief_reform_2 = {\n\t\tsprite = 5\n\t\texperience_gain_army = @chief_experience_gain_medium\n\t\texperience_gain_army_factor = 0.1\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_reform_3": {
+            "name": "army_chief_reform_3",
+            "definition": "\tarmy_chief_reform_3 = {\n\t\tsprite = 5\n\t\texperience_gain_army = @chief_experience_gain_high\n\t\texperience_gain_army_factor = 0.15\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_organizational_1": {
+            "name": "army_chief_organizational_1",
+            "definition": "\tarmy_chief_organizational_1 = { # Ground units get 4 more Organization\n\t\tsprite = 5\n\t\tarmy_org_factor = 0.04\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_organizational_2": {
+            "name": "army_chief_organizational_2",
+            "definition": "\tarmy_chief_organizational_2 = { # Ground units get 8 more Organization\n\t\tsprite = 5\n\t\tarmy_org_factor = 0.08\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_organizational_3": {
+            "name": "army_chief_organizational_3",
+            "definition": "\tarmy_chief_organizational_3 = { # Ground units get 12 more Organization\n\t\tsprite = 5\n\t\tarmy_org_factor = 0.12\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_planning_1": {
+            "name": "army_chief_planning_1",
+            "definition": "\tarmy_chief_planning_1 = { #\n\t\tsprite = 5\n\t\tplanning_speed = 0.05\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_planning_2": {
+            "name": "army_chief_planning_2",
+            "definition": "\tarmy_chief_planning_2 = { #\n\t\tsprite = 5\n\t\tplanning_speed = 0.10\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_planning_3": {
+            "name": "army_chief_planning_3",
+            "definition": "\tarmy_chief_planning_3 = { #\n\t\tsprite = 5\n\t\tplanning_speed = 0.15\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_morale_1": {
+            "name": "army_chief_morale_1",
+            "definition": "\tarmy_chief_morale_1 = { # Ground units get 4 more Morale\n\t\tsprite = 5\n\t\tout_of_supply_factor = -0.03\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_morale_2": {
+            "name": "army_chief_morale_2",
+            "definition": "\tarmy_chief_morale_2 = { # Ground units get 8 more Morale\n\t\tsprite = 5\n\t\tout_of_supply_factor = -0.06\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_morale_3": {
+            "name": "army_chief_morale_3",
+            "definition": "\tarmy_chief_morale_3 = { # Ground units get 12 more Morale\n\t\tsprite = 5\n\t\tout_of_supply_factor = -0.09\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_maneuver_1": {
+            "name": "army_chief_maneuver_1",
+            "definition": "\tarmy_chief_maneuver_1 = { # Ground units move 5% faster\n\t\tsprite = 5\n\t\tarmy_speed_factor = 0.05\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = 0.5\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_maneuver_2": {
+            "name": "army_chief_maneuver_2",
+            "definition": "\tarmy_chief_maneuver_2 = { # Ground units move 10% faster\n\t\tsprite = 5\n\t\tarmy_speed_factor = 0.1\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_maneuver_3": {
+            "name": "army_chief_maneuver_3",
+            "definition": "\tarmy_chief_maneuver_3 = { # Ground units move 15% faster\n\t\tsprite = 5\n\t\tarmy_speed_factor = 0.15\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_entrenchment_1": {
+            "name": "army_chief_entrenchment_1",
+            "definition": "\tarmy_chief_entrenchment_1 = {\n\t\tsprite = 5\n\t\tmax_dig_in = 3\n\t\tmobilization_speed = -0.02\n\t\texperience_gain_army = @chief_experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_entrenchment_2": {
+            "name": "army_chief_entrenchment_2",
+            "definition": "\tarmy_chief_entrenchment_2 = {\n\t\tsprite = 5\n\t\tmax_dig_in = 5\n\t\tmobilization_speed = -0.04\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_chief_entrenchment_3": {
+            "name": "army_chief_entrenchment_3",
+            "definition": "\tarmy_chief_entrenchment_3 = {\n\t\tsprite = 5\n\t\tmax_dig_in = 7\n\t\tmobilization_speed = -0.06\n\t\texperience_gain_army = @chief_experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": false
+        },
+        "army_entrenchment_1": {
+            "name": "army_entrenchment_1",
+            "definition": "\tarmy_entrenchment_1 = { # Ground units entrench n% faster\n\t\tsprite = 9\n\t\tdig_in_speed_factor = 0.08\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_entrenchment_2": {
+            "name": "army_entrenchment_2",
+            "definition": "\tarmy_entrenchment_2 = { # Ground units entrench 8% faster\n\t\tsprite = 9\n\t\tdig_in_speed_factor = 0.16\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_entrenchment_3": {
+            "name": "army_entrenchment_3",
+            "definition": "\tarmy_entrenchment_3 = { # Ground units entrench 12% faster\n\t\tsprite = 9\n\t\tdig_in_speed_factor = 0.24\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_armored_1": {
+            "name": "army_armored_1",
+            "definition": "\tarmy_armored_1 = { # +4 armor efficiency\n\t\tsprite = 8\n\t\tarmy_armor_attack_factor = 0.05\n\t    army_armor_defence_factor = 0.05\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_armored_2": {
+            "name": "army_armored_2",
+            "definition": "\tarmy_armored_2 = { # +8 armor efficiency\n\t\tsprite = 8\n\t\tarmy_armor_attack_factor = 0.1\n\t    army_armor_defence_factor = 0.1\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_armored_3": {
+            "name": "army_armored_3",
+            "definition": "\tarmy_armored_3 = { # +12 armor efficiency\n\t\tsprite = 8\n\t\tarmy_armor_attack_factor = 0.15\n\t    army_armor_defence_factor = 0.15\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_artillery_1": {
+            "name": "army_artillery_1",
+            "definition": "\tarmy_artillery_1 = { # +4 artillery efficiency\n\t\tsprite = 16\n\t\tarmy_artillery_attack_factor = 0.1\n\t\tarmy_artillery_defence_factor = 0.05\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_artillery_2": {
+            "name": "army_artillery_2",
+            "definition": "\tarmy_artillery_2 = { # +8 artillery efficiency\n\t\tsprite = 16\n\t\tarmy_artillery_attack_factor = 0.15\n\t\tarmy_artillery_defence_factor = 0.1\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_artillery_3": {
+            "name": "army_artillery_3",
+            "definition": "\tarmy_artillery_3 = { # +12 artillery efficiency\n\t\tsprite = 16\n\t\tarmy_artillery_attack_factor = 0.2\n\t\tarmy_artillery_defence_factor = 0.15\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_infantry_1": {
+            "name": "army_infantry_1",
+            "definition": "\tarmy_infantry_1 = { # +4 infantry efficiency\n\t\tsprite = 5\n\t\tarmy_infantry_attack_factor = 0.05\n\t\tarmy_infantry_defence_factor = 0.1\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_infantry_2": {
+            "name": "army_infantry_2",
+            "definition": "\tarmy_infantry_2 = { # +8 infantry efficiency\n\t\tsprite = 5\n\t\tarmy_infantry_attack_factor = 0.1\n\t\tarmy_infantry_defence_factor = 0.15\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_infantry_3": {
+            "name": "army_infantry_3",
+            "definition": "\tarmy_infantry_3 = { # +12 infantry efficiency\n\t\tsprite = 5\n\t\tarmy_infantry_attack_factor = 0.15\n\t\tarmy_infantry_defence_factor = 0.2\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = 4\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_commando_1": {
+            "name": "army_commando_1",
+            "definition": "\tarmy_commando_1 = { # +4 paratrooper/marine/mountain efficiency\n\t\tsprite = 5\n\t\tspecial_forces_attack_factor = 0.05\n\t\tspecial_forces_cap_flat = 3\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_commando_2": {
+            "name": "army_commando_2",
+            "definition": "\tarmy_commando_2 = { # +8 paratrooper/marine/mountain efficiency\n\t\tsprite = 5\n\t\tspecial_forces_attack_factor = 0.10\n\t\tspecial_forces_cap_flat = 6\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_commando_3": {
+            "name": "army_commando_3",
+            "definition": "\tarmy_commando_3 = { # +12 paratrooper/marine/mountain efficiency\n\t\tsprite = 5\n\t\tspecial_forces_attack_factor = 0.15\n\t\tspecial_forces_cap_flat = 10\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_cavalry_1": {
+            "name": "army_cavalry_1",
+            "definition": "\tarmy_cavalry_1 = { # +4 cavalry/motorized efficiency\n\t\tsprite = 17\n\t\tcavalry_attack_factor = 0.05\n\t\tcavalry_defence_factor = 0.05\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_cavalry_2": {
+            "name": "army_cavalry_2",
+            "definition": "\tarmy_cavalry_2 = { # +8 cavalry/motorized efficiency\n\t\tsprite = 17\n\t\tcavalry_attack_factor = 0.1\n\t\tcavalry_defence_factor = 0.1\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_cavalry_3": {
+            "name": "army_cavalry_3",
+            "definition": "\tarmy_cavalry_3 = { # +12 cavalry/motorized efficiency\n\t\tsprite = 17\n\t\tcavalry_attack_factor = 0.15\n\t\tcavalry_defence_factor = 0.15\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_CombinedArms_1": {
+            "name": "army_CombinedArms_1",
+            "definition": "\tarmy_CombinedArms_1 = { # +4 cavalry/motorized efficiency\n\t\tsprite = 8\n\t\tmotorized_attack_factor = 0.05\n\t\tmotorized_defence_factor = 0.05\n\t\tmechanized_attack_factor = 0.05\n\t\tmechanized_defence_factor = 0.05\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_CombinedArms_2": {
+            "name": "army_CombinedArms_2",
+            "definition": "\tarmy_CombinedArms_2 = { # +8 cavalry/motorized efficiency\n\t\tsprite = 8\n\t\tmotorized_attack_factor = 0.1\n\t\tmotorized_defence_factor = 0.1\n\t\tmechanized_attack_factor = 0.1\n\t\tmechanized_defence_factor = 0.1\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_CombinedArms_3": {
+            "name": "army_CombinedArms_3",
+            "definition": "\tarmy_CombinedArms_3 = { # +12 cavalry/motorized efficiency\n\t\tsprite = 8\n\t\tmotorized_attack_factor = 0.15\n\t\tmotorized_defence_factor = 0.15\n\t\tmechanized_attack_factor = 0.15\n\t\tmechanized_defence_factor = 0.15\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = 4\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_regrouping_1": {
+            "name": "army_regrouping_1",
+            "definition": "\tarmy_regrouping_1 = { # Org regenerates 4% faster\n\t\tsprite = 5\n\t\tarmy_morale_factor = 0.04\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_regrouping_2": {
+            "name": "army_regrouping_2",
+            "definition": "\tarmy_regrouping_2 = { # Org regenerates 8% faster\n\t\tsprite = 5\n\t\tarmy_morale_factor = 0.08\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_regrouping_3": {
+            "name": "army_regrouping_3",
+            "definition": "\tarmy_regrouping_3 = { # Org regenerates 12% faster\n\t\tsprite = 5\n\t\tarmy_morale_factor = 0.12\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_concealment_1": {
+            "name": "army_concealment_1",
+            "definition": "\tarmy_concealment_1 = { # Ground units take less damage from air attacks\n\t\tsprite = 9\n\t\tenemy_army_bonus_air_superiority_factor = -0.05\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_concealment_2": {
+            "name": "army_concealment_2",
+            "definition": "\tarmy_concealment_2 = { # Ground units take less damage from air attacks\n\t\tsprite = 9\n\t\tenemy_army_bonus_air_superiority_factor = -0.10\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_concealment_3": {
+            "name": "army_concealment_3",
+            "definition": "\tarmy_concealment_3 = { # Ground units take less damage from air attacks\n\t\tsprite = 9\n\t\tenemy_army_bonus_air_superiority_factor = -0.15\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_logistics_1": {
+            "name": "army_logistics_1",
+            "definition": "\tarmy_logistics_1 = {  # Ground units suffer 4% less attrition\n\t\tsprite = 6\n\t\tattrition = -0.04\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_1\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_logistics_2": {
+            "name": "army_logistics_2",
+            "definition": "\tarmy_logistics_2 = {  # Ground units suffer 8% less attrition\n\t\tsprite = 6\n\t\tattrition = -0.08\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_logistics_3": {
+            "name": "army_logistics_3",
+            "definition": "\tarmy_logistics_3 = {  # Ground units suffer 12% less attrition\n\t\tsprite = 6\n\t\tattrition = -0.12\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_radio_intelligence_1": {
+            "name": "army_radio_intelligence_1",
+            "definition": "\tarmy_radio_intelligence_1 = {\n\t\trandom = no\n\t\tsprite = 15\n\t\tcivilian_intel_factor = 0.03\n\t\tarmy_intel_factor = 0.03\n\t\tnavy_intel_factor = 0.03\n\t\tairforce_intel_factor = 0.03\t\t\n\t\tinitiative_factor = 0.02\n\n\t\t#experience_gain_army = @experience_gain_low\n\n\t\tcommand_cap_increase = @tier1_cp_cap_increase\n\t\tcommand_power = @tier1_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier1_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_radio_intelligence_2": {
+            "name": "army_radio_intelligence_2",
+            "definition": "\tarmy_radio_intelligence_2 = {\n\t\trandom = no\n\t\tsprite = 15\n\t\tcivilian_intel_factor = 0.06\n\t\tarmy_intel_factor = 0.06\n\t\tnavy_intel_factor = 0.06\n\t\tairforce_intel_factor = 0.06\t\t\n\t\tinitiative_factor = 0.04\n\n\t\t#experience_gain_army = @experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = 4\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_radio_intelligence_3": {
+            "name": "army_radio_intelligence_3",
+            "definition": "\tarmy_radio_intelligence_3 = {\n\t\trandom = no\n\t\tsprite = 15\n\t\tcivilian_intel_factor = 0.09\n\t\tarmy_intel_factor = 0.09\n\t\tnavy_intel_factor = 0.09\n\t\tairforce_intel_factor = 0.09\t\t\n\t\tinitiative_factor = 0.06\n\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = 6\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": false
+        },
+        "army_german_ground_commander": {
+            "name": "army_german_ground_commander",
+            "definition": "\tarmy_german_ground_commander = { #FIN-specific, considered Genius (tier 3)\n\t\tsprite = 5\n\t\tamphibious_invasion = 0.1\n\t\tparadrop_organization_factor = 0.1\n\t\tarmy_infantry_attack_factor = 0.05\n\t\tmax_command_power = 60\n\n\t\t#experience_gain_army = @experience_gain_high\n\n\t\tcommand_cap_increase = @tier3_cp_cap_increase\n\t\tcommand_power = @tier3_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_command_factor_3\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier3_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_high_command",
+            "special": true
+        },
+        "army_chief_army_high_command": {
+            "name": "army_chief_army_high_command",
+            "definition": "\tarmy_chief_army_high_command = { # Werner von Fritsch (Oberkommando des Heeres)\n\t\tsprite = 5\n\t\tarmy_artillery_attack_factor = 0.15\n\t\tarmy_artillery_defence_factor = 0.1\n\t\tmax_planning_factor = 0.1\n\t\texperience_gain_army = @chief_experience_gain_medium\n\n\t\tcommand_cap_increase = @tier2_cp_cap_increase\n\t\tcommand_power = @tier2_cp_cost\n\n\t\tai_will_do = {\n\t\t\tfactor = @army_chief_factor_2\n\t\t\tmodifier = {\n\t\t\t\tfactor = 0\n\t\t\t\tcommand_power < @tier2_cp_cost\n\t\t\t}\n\t\t}\n\t}",
+            "category": "army_chief",
+            "special": true
+        }
+    }
+}

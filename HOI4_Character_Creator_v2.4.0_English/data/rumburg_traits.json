@@ -1,0 +1,3716 @@
+{
+    "source": "Rumburg_Leaders_Trait(3).txt",
+    "trait_count": 154,
+    "duplicate_count": 0,
+    "duplicate_names": {},
+    "category_labels": {
+        "leaders": "Leaders, titles, and great houses",
+        "ministers": "Ministers and government advisors",
+        "ideological": "Non-royal ideological advisors",
+        "influential": "Influential professions outside government",
+        "negative": "Negative personalities and professions",
+        "theorists": "Theorists and doctrines",
+        "air_designers": "Aircraft designers and manufacturers",
+        "land_designers": "Land and armored vehicle designers",
+        "naval_designers": "Naval designers and manufacturers",
+        "companies": "Companies, transport, and resources"
+    },
+    "categories": {
+        "leaders": [
+            "RUM_Queen_of_Rumburg_01",
+            "RUM_Queen_of_Rumburg_02",
+            "RUM_King_of_Rumburg_01",
+            "RUM_King_of_Rumburg_02",
+            "RUM_King_of_Rumburg_03",
+            "RUM_the_great",
+            "RUM_the_FRAIL",
+            "RUM_the_LAWGIVER",
+            "RUM_the_UNIFIER",
+            "RUM_the_REFORMER",
+            "RUM_the_IRON_CROWN",
+            "RUM_the_BROKEN_CROWN",
+            "RUM_Duke_of_Eskdaleton",
+            "RUM_Duke_of_Glenhill",
+            "RUM_Duchess_of_Thompsfort",
+            "RUM_KING_CONSORT",
+            "RUM_KING_OF_BLUDIA",
+            "RUM_House_Eskdaleton_Influence",
+            "RUM_House_Thompsfort_Influence",
+            "RUM_House_Earnshaw_Influence",
+            "RUM_House_Halsecroft_Influence",
+            "RUM_Lord_Chancelor_HES_01",
+            "RUM_Lord_Chancelor_HES_02",
+            "RUM_Lord_Chancelor_IK_01",
+            "RUM_Lord_Chancelor_IK_02",
+            "RUM_Lord_Chancelor_GB_01",
+            "RUM_Lord_Chancelor_GB_02",
+            "RUM_Lord_Chancelor_JW_01"
+        ],
+        "ministers": [
+            "RUM_Welfare_Monarchist",
+            "RUM_Welfare_Socialist",
+            "RUM_Welfare_Liberal",
+            "RUM_Welfare_Nationalist",
+            "RUM_Education_Conservative",
+            "RUM_Education_Socialist",
+            "RUM_Education_Liberal",
+            "RUM_Monarchist_Film_Director",
+            "RUM_Social_Cultural_Theorist",
+            "RUM_Crown_Minister_Foreign_Affairs",
+            "RUM_GRACE_Minister_Foreign_Affairs",
+            "RUM_Defence_Military_Ministers",
+            "RUM_Civilian_Defence_Ministers",
+            "RUM_Corrupt_Defence_Ministers",
+            "RUM_Interior_Royal_Hardliner",
+            "RUM_Interior_Reformist_Administrator",
+            "RUM_Interior_Secret_Police_Chief",
+            "RUM_Economy_Royal_Treasurer",
+            "RUM_Economy_Industrial_Planner",
+            "RUM_Economy_Corrupt_Aristocrat",
+            "RUM_Intelligence_Royal_Spymaster",
+            "RUM_Intelligence_Counter_Subversion_Expert",
+            "RUM_Intelligence_Foreign_Operations_Director"
+        ],
+        "ideological": [
+            "RUM_Revolutionary_Union_Organizer",
+            "RUM_Socialist_Party_Theorist",
+            "RUM_Progressive_Civil_Reformer",
+            "RUM_Liberal_Constitutionalist",
+            "RUM_Conservative_Statesman",
+            "RUM_Emergency_Power_Broker",
+            "RUM_National_Populist_Agitator",
+            "RUM_Coalition_Parliamentarian",
+            "RUM_Radical_National_Syndicalist"
+        ],
+        "influential": [
+            "RUM_Major_industrialist",
+            "RUM_Influential_banker",
+            "RUM_Media_owner",
+            "RUM_Trade_union_leader",
+            "RUM_Renowned_academic",
+            "RUM_Religious_leader",
+            "RUM_Prominent_lawyer",
+            "RUM_Respected_physician",
+            "RUM_Technology_entrepreneur",
+            "RUM_Lobbyist",
+            "RUM_Humanitarian_organization_director",
+            "RUM_Veterans_association_leader",
+            "RUM_Student_leader",
+            "RUM_Representative_of_the_nobility",
+            "RUM_Minority_spokesperson",
+            "RUM_Political_activist",
+            "RUM_Community_organizer"
+        ],
+        "negative": [
+            "RUM_Corrupt_Industrialist",
+            "RUM_Arrogant_General",
+            "RUM_Paranoid_Intelligence_Director",
+            "RUM_Indecisive_Prime_Minister",
+            "RUM_Nepotistic_Minister",
+            "RUM_Dogmatic_Professor",
+            "RUM_Reckless_Defence_Minister",
+            "RUM_Manipulative_Propaganda_Director",
+            "RUM_Greedy_Banker",
+            "RUM_Authoritarian_Prefect",
+            "RUM_Cowardly_Diplomat",
+            "RUM_Fanatical_Religious_Leader",
+            "RUM_Negligent_Health_Minister",
+            "RUM_Opportunistic_Trade_Union_Leader"
+        ],
+        "theorists": [
+            "RUM_council_of_theorists",
+            "RUM_military_theorist",
+            "RUM_mobile_warfare_expert",
+            "RUM_superior_firepower_expert",
+            "RUM_grand_battle_plan_expert",
+            "RUM_mass_assault_expert",
+            "RUM_air_warfare_theorist",
+            "RUM_dive_bomber",
+            "RUM_victory_through_airpower",
+            "RUM_close_air_support_proponent",
+            "RUM_assault_avaition",
+            "RUM_naval_theorist",
+            "RUM_naval_aviation_pioneer",
+            "RUM_grand_fleet_proponent",
+            "RUM_submarine_specialist",
+            "RUM_blitzkrieg_theorist"
+        ],
+        "air_designers": [
+            "RUM_aircraft_manufacturer",
+            "RUM_light_aircraft_manufacturer",
+            "RUM_light_aircraft_manufacturer_2",
+            "RUM_CAS_manufacturer",
+            "RUM_medium_aircraft_manufacturer",
+            "RUM_fuel_efficient_aircraft_manufacturer",
+            "RUM_heavy_aircraft_manufacturer",
+            "RUM_naval_aircraft_manufacturer",
+            "RUM_multi_role_aircraft_manufacturer",
+            "RUM_aircraft_production_plant"
+        ],
+        "land_designers": [
+            "RUM_tank_refurbishment_plant",
+            "RUM_fast_tank_manufacturer",
+            "RUM_armored_car_manufacturer",
+            "RUM_infantry_tank_manufacturer",
+            "RUM_assault_gun_manufacturer",
+            "RUM_medium_tank_manufacturer",
+            "RUM_heavy_tank_manufacturer",
+            "RUM_tank_manufacturer",
+            "RUM_artillery_manufacturer",
+            "RUM_infantry_equipment_manufacturer",
+            "RUM_support_equipment_manufacturer",
+            "RUM_motorized_equipment_manufacturer"
+        ],
+        "naval_designers": [
+            "RUM_repair_and_refurbishment_plant",
+            "RUM_kurpt_naval_manufacturer",
+            "RUM_submarine_manufacturer",
+            "RUM_submarine_manufacturer_2",
+            "RUM_colonial_fleet_naval_manufacturer",
+            "RUM_ultimate_fleet_naval_manufacturer",
+            "RUM_battlefleet_designer",
+            "RUM_raiding_fleet_naval_manufacturer",
+            "RUM_convoy_escort_naval_manufacturer",
+            "RUM_old_naval_manufacturer",
+            "RUM_coastal_defence_naval_manufacturer",
+            "RUM_naval_manufacturer",
+            "RUM_merchant_marine_manufacturer"
+        ],
+        "companies": [
+            "RUM_industrial_concern",
+            "RUM_railway_company",
+            "RUM_transport_company",
+            "RUM_civilian_airway_company",
+            "RUM_improved_railway_company",
+            "RUM_construction_company",
+            "RUM_resource_development_company",
+            "RUM_resource_development_company_2",
+            "RUM_diamond_extraction_company",
+            "RUM_forestry_company",
+            "RUM_refining_concern",
+            "RUM_refinery_concern"
+        ]
+    },
+    "definitions": {
+        "RUM_Queen_of_Rumburg_01": {
+            "name": "RUM_Queen_of_Rumburg_01",
+            "display_name": "Queen of Rumburg 01",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.20"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.5"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "0.25"
+                }
+            ],
+            "definition": "    RUM_Queen_of_Rumburg_01 = {\n\t\trandom = no\n\n\t\tstability_factor = 0.20\n        war_support_factor = 0.15\n        drift_defence_factor = 0.5\n\t\tjustify_war_goal_time = 0.25\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Queen_of_Rumburg_02": {
+            "name": "RUM_Queen_of_Rumburg_02",
+            "display_name": "QUEEN OF THE PEOPLE",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_weekly",
+                    "value": "0.001"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_core_defence_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "    RUM_Queen_of_Rumburg_02 = { #QUEEN OF THE PEOPLE\n\t\trandom = no\n\n\t\tstability_weekly = 0.001\n\t\tstability_factor = 0.05\n\t\twar_support_factor = 0.05\n\t\tarmy_core_defence_factor = 0.1\n\t\tpolitical_power_factor = 0.15\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_King_of_Rumburg_01": {
+            "name": "RUM_King_of_Rumburg_01",
+            "display_name": "Newly Crown King",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_advisor_cost_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "trade_laws_cost_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "mobilization_laws_cost_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.5"
+                }
+            ],
+            "definition": "    RUM_King_of_Rumburg_01 = { #Newly Crown King\n\t\trandom = no\n        \n\t\tstability_factor = 0.10\n\t\tpolitical_advisor_cost_factor = 0.25\n\t\ttrade_laws_cost_factor = 0.25\n\t\tmobilization_laws_cost_factor = 0.25\n\t\teconomy_cost_factor = 0.25\n\t\tjustify_war_goal_time = 0.25\n        drift_defence_factor = 0.5\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_King_of_Rumburg_02": {
+            "name": "RUM_King_of_Rumburg_02",
+            "display_name": "Competent King",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.20"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.5"
+                }
+            ],
+            "definition": "    RUM_King_of_Rumburg_02 = { #Competent King\n\t\trandom = no\n\n\t\tstability_factor = 0.20\n        war_support_factor = 0.15\n\t\tjustify_war_goal_time = 0.25\n        drift_defence_factor = 0.5\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_King_of_Rumburg_03": {
+            "name": "RUM_King_of_Rumburg_03",
+            "display_name": "King of Rumburg 03",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_morale_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "non_core_manpower",
+                    "value": "0.01"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "army_attack_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_defence_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "subjects_autonomy_gain",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_King_of_Rumburg_03 = {\n        random = no\n\n\t\twar_support_factor = 0.05\n\t\tstability_factor = 0.05\n\t\tarmy_morale_factor = 0.1\n\t\tnon_core_manpower = 0.01\n\t\tresistance_growth = -0.05\n\t\tarmy_attack_factor = 0.05\n\t\tarmy_defence_factor = 0.05\n\t\tsubjects_autonomy_gain = -0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_the_great": {
+            "name": "RUM_the_great",
+            "display_name": "Win the RUMO-SORDISH WAR",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "max_training",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "experience_gain_army_unit_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "experience_loss_factor",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "conscription",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "non_core_manpower",
+                    "value": "0.02"
+                }
+            ],
+            "definition": "\tRUM_the_great = { #Win the RUMO-SORDISH WAR\n        random = no\n\n        stability_factor = 0.10\n        political_power_factor = 0.1\n\t\tmax_training = 0.15\n\t\texperience_gain_army_unit_factor = 0.15\n\t\texperience_loss_factor = -0.25\n\t\tconscription = 0.02\n\t\tnon_core_manpower = 0.02\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_the_FRAIL": {
+            "name": "RUM_the_FRAIL",
+            "display_name": "Lose the RUMO-SORDISH WAR - Alliance SRD-LSP",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "trade_laws_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "political_advisor_cost_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "mobilization_laws_cost_factor",
+                    "value": "0.25"
+                }
+            ],
+            "definition": "\tRUM_the_FRAIL = { #Lose the RUMO-SORDISH WAR - Alliance SRD-LSP\n\t\trandom = no\n\n\t\tstability_factor = 0.15\n        economy_cost_factor = -0.1\n        trade_laws_cost_factor = -0.1\n\t\tpolitical_power_factor = -0.15\n\t\tpolitical_advisor_cost_factor = 0.25\n\t\tmobilization_laws_cost_factor = 0.25\t\t\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_the_LAWGIVER": {
+            "name": "RUM_the_LAWGIVER",
+            "display_name": "NO WAR WITH SRD",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "trade_laws_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "political_advisor_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "mobilization_laws_cost_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_the_LAWGIVER = { #NO WAR WITH SRD\n\t\trandom = no\n\n\t\tstability_factor = 0.15\n    \tpolitical_power_factor = 0.15\n        economy_cost_factor = -0.1\n        trade_laws_cost_factor = -0.1\n\t\tpolitical_advisor_cost_factor = -0.1\n\t\tmobilization_laws_cost_factor = -0.1\t\t\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_the_UNIFIER": {
+            "name": "RUM_the_UNIFIER",
+            "display_name": "Win the RUMO-Civil WAR",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "    RUM_the_UNIFIER = { #Win the RUMO-Civil WAR\n        random = no\n\n        stability_factor = 0.10\n        political_power_factor = 0.10\n        resistance_growth = -0.05\n        drift_defence_factor = 0.15\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_the_REFORMER": {
+            "name": "RUM_the_REFORMER",
+            "display_name": "Liberal or constitutional reforms",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_the_REFORMER = { #Liberal or constitutional reforms\n        random = no\n\n        stability_factor = 0.05\n        political_power_factor = 0.15\n        party_popularity_stability_factor = 0.10\n        liberalism_drift = 0.05\n        consumer_goods_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_the_IRON_CROWN": {
+            "name": "RUM_the_IRON_CROWN",
+            "display_name": "Militarist / authoritarian path",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "army_attack_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_defence_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "    RUM_the_IRON_CROWN = { #Militarist / authoritarian path\n        random = no\n\n        war_support_factor = 0.15\n        army_attack_factor = 0.05\n        army_defence_factor = 0.05\n        justify_war_goal_time = -0.15\n        stability_factor = -0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_the_BROKEN_CROWN": {
+            "name": "RUM_the_BROKEN_CROWN",
+            "display_name": "Civil crisis or failed reforms",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "0.10"
+                }
+            ],
+            "definition": "    RUM_the_BROKEN_CROWN = { #Civil crisis or failed reforms\n        random = no\n\n        stability_factor = -0.15\n        political_power_factor = -0.10\n        war_support_factor = -0.05\n        resistance_growth = 0.10\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Duke_of_Eskdaleton": {
+            "name": "RUM_Duke_of_Eskdaleton",
+            "display_name": "Duke of Eskdaleton",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "surrender_limit",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "resistance_damage_to_garrison",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "offensive_war_stability_factor",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_Duke_of_Eskdaleton = { \n\t\trandom = no\n\n\t\tsurrender_limit = 0.05\n\t\tresistance_damage_to_garrison = -0.15\n\t\twar_support_factor = 0.05\n\t\toffensive_war_stability_factor = 0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Duke_of_Glenhill": {
+            "name": "RUM_Duke_of_Glenhill",
+            "display_name": "Duke of Glenhill",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Duke_of_Glenhill = { \n\t\trandom = no\n\n        political_power_factor = 0.1\n\t\twar_support_factor = 0.05\n\t\tjustify_war_goal_time = -0.25\n\t\twar_support_factor = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Duchess_of_Thompsfort": {
+            "name": "RUM_Duchess_of_Thompsfort",
+            "display_name": "Duchess of Thompsfort",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "\tRUM_Duchess_of_Thompsfort = { \n\t\trandom = no\n\n        stability_factor = 0.10\n        political_power_factor = 0.1\n        research_speed_factor = 0.05\n\t\tconsumer_goods_factor = -0.10\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_KING_CONSORT": {
+            "name": "RUM_KING_CONSORT",
+            "display_name": "KING CONSORT",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_KING_CONSORT = {\n\t\trandom = no\n\n\t\tpaternal_despotism_drift = 0.1\n\t\tstability_factor = 0.1\n\t\twar_support_factor = 0.05\n\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_KING_OF_BLUDIA": {
+            "name": "RUM_KING_OF_BLUDIA",
+            "display_name": "KING OF BLUDIA",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "surrender_limit",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.5"
+                }
+            ],
+            "definition": "\tRUM_KING_OF_BLUDIA = {\n\t\trandom = no\n\n\t\tstability_factor = 0.1\n\t\twar_support_factor = 0.05\n        paternal_despotism_drift = 0.1\n        surrender_limit = 0.05\n        drift_defence_factor = 0.5\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_House_Eskdaleton_Influence": {
+            "name": "RUM_House_Eskdaleton_Influence",
+            "display_name": "House Eskdaleton Influence",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_attack_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "army_defence_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "production_speed_arms_factory_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "    RUM_House_Eskdaleton_Influence = {\n        random = no\n\n        war_support_factor = 0.05\n        army_attack_factor = 0.03\n        army_defence_factor = 0.03\n        production_speed_arms_factory_factor = 0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_House_Thompsfort_Influence": {
+            "name": "RUM_House_Thompsfort_Influence",
+            "display_name": "House Thompsfort Influence",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "trade_laws_cost_factor",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "    RUM_House_Thompsfort_Influence = {\n        random = no\n\n        political_power_factor = 0.08\n        stability_factor = 0.05\n        trade_laws_cost_factor = -0.10\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_House_Earnshaw_Influence": {
+            "name": "RUM_House_Earnshaw_Influence",
+            "display_name": "House Earnshaw Influence",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.03"
+                },
+                {
+                    "modifier": "production_speed_industrial_complex_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "0.03"
+                }
+            ],
+            "definition": "    RUM_House_Earnshaw_Influence = {\n        random = no\n\n        consumer_goods_factor = -0.03\n        production_speed_industrial_complex_factor = 0.07\n        production_factory_efficiency_gain_factor = 0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_House_Halsecroft_Influence": {
+            "name": "RUM_House_Halsecroft_Influence",
+            "display_name": "House Halsecroft Influence",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "navy_experience_gain_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "naval_base_cost_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "production_speed_dockyard_factor",
+                    "value": "0.08"
+                }
+            ],
+            "definition": "    RUM_House_Halsecroft_Influence = {\n        random = no\n\n        navy_experience_gain_factor = 0.10\n        naval_base_cost_factor = -0.05\n        production_speed_dockyard_factor = 0.08\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_HES_01": {
+            "name": "RUM_Lord_Chancelor_HES_01",
+            "display_name": "GARDIAN OF THE OLD ORDER",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_HES_01 = { #GARDIAN OF THE OLD ORDER\n\t\trandom = no\n\n        political_power_factor = 0.1\n\t\twar_support_factor = 0.05\n\t\tjustify_war_goal_time = -0.25\n\t\twar_support_factor = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_HES_02": {
+            "name": "RUM_Lord_Chancelor_HES_02",
+            "display_name": "HEROES OF RUMBURG",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_HES_02 = { #HEROES OF RUMBURG\n\t\trandom = no\n\n        stability_factor = 0.10\n        party_popularity_stability_factor = 0.1\n        political_power_factor = 0.1\n\t\twar_support_factor = 0.05\n\t\tjustify_war_goal_time = -0.25\n\t\twar_support_factor = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_IK_01": {
+            "name": "RUM_Lord_Chancelor_IK_01",
+            "display_name": "LIBERAL CHALLENGER",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.2"
+                },
+                {
+                    "modifier": "political_advisor_cost_factor",
+                    "value": "-0.2"
+                },
+                {
+                    "modifier": "mobilization_laws_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_IK_01 = { #LIBERAL CHALLENGER\n\t\trandom = no\n\n        political_power_factor = -0.1\n\t\tparty_popularity_stability_factor = 0.2\n\t\tpolitical_advisor_cost_factor = -0.2\n\t\tmobilization_laws_cost_factor = -0.1\n\t\teconomy_cost_factor = 0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_IK_02": {
+            "name": "RUM_Lord_Chancelor_IK_02",
+            "display_name": "NATION BUILDER",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.2"
+                },
+                {
+                    "modifier": "political_advisor_cost_factor",
+                    "value": "-0.2"
+                },
+                {
+                    "modifier": "mobilization_laws_cost_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_IK_02 = { #NATION BUILDER\n\t\trandom = no\n\n        stability_factor = 0.10\n        political_power_factor = 0.1\n\t\tparty_popularity_stability_factor = 0.2\n\t\tpolitical_advisor_cost_factor = -0.2\n\t\tmobilization_laws_cost_factor = -0.1\n\t\teconomy_cost_factor = 0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_GB_01": {
+            "name": "RUM_Lord_Chancelor_GB_01",
+            "display_name": "FIRST SOCIALIST REFORMIST",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "high_command_cost_factor",
+                    "value": "0.30"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_GB_01 = { #FIRST SOCIALIST REFORMIST\n\t\trandom = no\n\n        stability_factor = -0.10\n        political_power_factor = 0.1\n        research_speed_factor = 0.05\n        high_command_cost_factor = 0.30\n\t\tconsumer_goods_factor = -0.10\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_GB_02": {
+            "name": "RUM_Lord_Chancelor_GB_02",
+            "display_name": "GREAT SOCIALIST REFORMIST",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_GB_02 = { #GREAT SOCIALIST REFORMIST\n\t\trandom = no\n\n        stability_factor = 0.10\n        political_power_factor = 0.1\n        research_speed_factor = 0.05\n\t\tconsumer_goods_factor = -0.10\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Lord_Chancelor_JW_01": {
+            "name": "RUM_Lord_Chancelor_JW_01",
+            "display_name": "POPULAR COMMANDER",
+            "category": "leaders",
+            "category_label": "Leaders, titles, and great houses",
+            "direct_modifiers": [
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "high_command_cost_factor",
+                    "value": "-0.2"
+                },
+                {
+                    "modifier": "army_core_attack_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "army_core_defence_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "army_morale_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Lord_Chancelor_JW_01 = { #POPULAR COMMANDER\n\t\trandom = no\n\n\t\twar_support_factor = 0.05\n\t\tstability_factor = -0.05\n        high_command_cost_factor = -0.2\n\t\tarmy_core_attack_factor = 0.1\n\t\tarmy_core_defence_factor = 0.1\n\t\tarmy_morale_factor = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Welfare_Monarchist": {
+            "name": "RUM_Welfare_Monarchist",
+            "display_name": "Welfare Monarchist",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Welfare_Monarchist = {\n\t\trandom = no\n\n\t\tconsumer_goods_factor = 0.05\n\t\tstability_factor = 0.1\n\t\tpolitical_power_factor = 0.1\n        paternal_despotism_drift = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Welfare_Socialist": {
+            "name": "RUM_Welfare_Socialist",
+            "display_name": "Welfare Socialist",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.07"
+                }
+            ],
+            "definition": "\tRUM_Welfare_Socialist = {\n\t\trandom = no\n\n\t\tconsumer_goods_factor = 0.15\n\t\tstability_factor = 0.15\n\t\tpolitical_power_factor = 0.10\n        production_factory_efficiency_gain_factor = 0.05\n        socialism_drift = 0.07\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Welfare_Liberal": {
+            "name": "RUM_Welfare_Liberal",
+            "display_name": "Welfare Liberal",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.07"
+                }
+            ],
+            "definition": "\tRUM_Welfare_Liberal = {\n\t\trandom = no\n\n\t\tconsumer_goods_factor = -0.1\n\t\tstability_factor = -0.1\n\t\tpolitical_power_factor = 0.15\n        liberalism_drift = 0.07\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Welfare_Nationalist": {
+            "name": "RUM_Welfare_Nationalist",
+            "display_name": "Welfare Nationalist",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "production_speed_arms_factory_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "production_speed_industrial_complex_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Welfare_Nationalist = {\n\t\trandom = no\n\n\t\tconsumer_goods_factor = 0.05\n\t\tstability_factor = 0.1\n\t\tpolitical_power_factor = 0.1\n        production_factory_efficiency_gain_factor = -0.05\n\t\tproduction_speed_arms_factory_factor = 0.07\n\t\tproduction_speed_industrial_complex_factor = 0.07\n        national_populism_drift = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Education_Conservative": {
+            "name": "RUM_Education_Conservative",
+            "display_name": "Education Conservative",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_core_defence_factor",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "\tRUM_Education_Conservative = {\n\t\trandom = no\n\n\t\tresearch_speed_factor = 0.02\n        consumer_goods_factor = 0.05\n        army_core_defence_factor = 0.02\n\t\twar_support_factor = 0.05\n\t\tstability_factor = -0.03\t\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Education_Socialist": {
+            "name": "RUM_Education_Socialist",
+            "display_name": "Education Socialist",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_Education_Socialist = {\n\t\trandom = no\n\n        research_speed_factor = 0.05\n\t\tconsumer_goods_factor = 0.10\n\t\tstability_factor = 0.05\n\t\tpolitical_power_factor = 0.10\n        socialism_drift = 0.05\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Education_Liberal": {
+            "name": "RUM_Education_Liberal",
+            "display_name": "Education Liberal",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.03"
+                }
+            ],
+            "definition": "\tRUM_Education_Liberal = {\n\t\trandom = no\n\n\t\tconsumer_goods_factor = -0.1\n        research_speed_factor = 0.07\n\t\tstability_factor = -0.05\n\t\tpolitical_power_factor = -0.1\n        liberalism_drift = 0.03\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Monarchist_Film_Director": {
+            "name": "RUM_Monarchist_Film_Director",
+            "display_name": "Monarchist Film Director",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "weekly_casualties_war_support",
+                    "value": "0.001"
+                },
+                {
+                    "modifier": "offensive_war_stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "defensive_war_stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "paternal_despotism_acceptance",
+                    "value": "20"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_Monarchist_Film_Director = {\n\t\trandom = no\n\n\t\tweekly_casualties_war_support = 0.001\n\t\toffensive_war_stability_factor = 0.05\n\t\tdefensive_war_stability_factor = 0.05\n        paternal_despotism_drift = 0.07\n        paternal_despotism_acceptance = 20\n\t\tdrift_defence_factor = 0.15\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Social_Cultural_Theorist": {
+            "name": "RUM_Social_Cultural_Theorist",
+            "display_name": "Social Cultural Theorist",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "surrender_limit",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_Social_Cultural_Theorist = {\n\t\trandom = no\n\n\t\tsocialism_drift = 0.05\n\t\tstability_factor = 0.1\n\t\tpolitical_power_factor = 0.1\n\t\tresearch_speed_factor = 0.03\n\t\tcompliance_gain = 0.05\n\t\tsurrender_limit = 0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Crown_Minister_Foreign_Affairs": {
+            "name": "RUM_Crown_Minister_Foreign_Affairs",
+            "display_name": "Pragmatic Foreign Minister",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "subversive_activites_upkeep",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "faction_trade_opinion_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "opinion_gain_monthly_same_ideology",
+                    "value": "5"
+                },
+                {
+                    "modifier": "conservatism_acceptance",
+                    "value": "20"
+                },
+                {
+                    "modifier": "liberalism_acceptance",
+                    "value": "10"
+                },
+                {
+                    "modifier": "communism_acceptance",
+                    "value": "-20"
+                }
+            ],
+            "definition": "\tRUM_Crown_Minister_Foreign_Affairs = { #Pragmatic Foreign Minister \n\t\trandom = no\n\n\t\tsubversive_activites_upkeep = -0.25\n\t\tdrift_defence_factor = 0.25\n\t\tjustify_war_goal_time = -0.15\n\t\tfaction_trade_opinion_factor = 0.1\n\t\topinion_gain_monthly_same_ideology = 5\n        conservatism_acceptance = 20\n        liberalism_acceptance = 10\n        communism_acceptance = -20\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_GRACE_Minister_Foreign_Affairs": {
+            "name": "RUM_GRACE_Minister_Foreign_Affairs",
+            "display_name": "GRACE Minister Foreign Affairs",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "send_volunteers_tension",
+                    "value": "-0.7"
+                },
+                {
+                    "modifier": "send_volunteer_divisions_required",
+                    "value": "-0.5"
+                },
+                {
+                    "modifier": "send_volunteer_size",
+                    "value": "3"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "faction_trade_opinion_factor",
+                    "value": "-0.1"
+                },
+                {
+                    "modifier": "opinion_gain_monthly_same_ideology",
+                    "value": "5"
+                },
+                {
+                    "modifier": "paternal_despotism_acceptance",
+                    "value": "20"
+                },
+                {
+                    "modifier": "national_populism_acceptance",
+                    "value": "20"
+                }
+            ],
+            "definition": "\tRUM_GRACE_Minister_Foreign_Affairs = {\n\t\trandom = no\n\n\t\tsend_volunteers_tension = -0.7\n\t\tsend_volunteer_divisions_required = -0.5\n\t\tsend_volunteer_size = 3\n        justify_war_goal_time = -0.15\n\t\tfaction_trade_opinion_factor = -0.1\n\t\topinion_gain_monthly_same_ideology = 5\n        paternal_despotism_acceptance = 20\n        national_populism_acceptance = 20\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Defence_Military_Ministers": {
+            "name": "RUM_Defence_Military_Ministers",
+            "display_name": "Defence Military Ministers",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "high_command_cost_factor",
+                    "value": "-0.2"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_attack_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_morale_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_core_defence_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_Defence_Military_Ministers = {\n\t\trandom = no\n\n        high_command_cost_factor = -0.2\n\t\twar_support_factor = 0.05\n        army_attack_factor = 0.05\n\t\tarmy_morale_factor = 0.05\n\t\tarmy_core_defence_factor = 0.07\n\t\tdrift_defence_factor = 0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Civilian_Defence_Ministers": {
+            "name": "RUM_Civilian_Defence_Ministers",
+            "display_name": "Civilian Defence Ministers",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "high_command_cost_factor",
+                    "value": "-0.2"
+                },
+                {
+                    "modifier": "production_speed_bunker_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_speed_synthetic_refinery_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_speed_coastal_bunker_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_speed_anti_air_building_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_speed_arms_factory_factor",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_Civilian_Defence_Ministers = {\n\t\trandom = no\n\n        high_command_cost_factor = -0.2\n\t\tproduction_speed_bunker_factor = 0.1\n\t\tproduction_speed_synthetic_refinery_factor = 0.1\n\t\tproduction_speed_coastal_bunker_factor = 0.1\n\t\tproduction_speed_anti_air_building_factor = 0.1\n\t\tproduction_speed_arms_factory_factor = 0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Corrupt_Defence_Ministers": {
+            "name": "RUM_Corrupt_Defence_Ministers",
+            "display_name": "Corrupt Defence Ministers",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "high_command_cost_factor",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "army_core_defence_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_Corrupt_Defence_Ministers = {\n\t\trandom = no\n\n        high_command_cost_factor = -0.25\n        consumer_goods_factor = 0.05\n        army_core_defence_factor = -0.05\n\t\tdrift_defence_factor = -0.1\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_Interior_Royal_Hardliner": {
+            "name": "RUM_Interior_Royal_Hardliner",
+            "display_name": "Interior Royal Hardliner",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "-0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "    RUM_Interior_Royal_Hardliner = {\n        random = no\n\n        stability_factor = 0.05\n        resistance_growth = -0.10\n        compliance_gain = -0.03\n        political_power_factor = 0.05\n        drift_defence_factor = 0.10\n        paternal_despotism_drift = 0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Interior_Reformist_Administrator": {
+            "name": "RUM_Interior_Reformist_Administrator",
+            "display_name": "Interior Reformist Administrator",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.03"
+                }
+            ],
+            "definition": "    RUM_Interior_Reformist_Administrator = {\n        random = no\n\n        stability_factor = 0.10\n        compliance_gain = 0.05\n        political_power_factor = 0.05\n        resistance_growth = -0.05\n        liberalism_drift = 0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Interior_Secret_Police_Chief": {
+            "name": "RUM_Interior_Secret_Police_Chief",
+            "display_name": "Interior Secret Police Chief",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.20"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.20"
+                },
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.04"
+                }
+            ],
+            "definition": "    RUM_Interior_Secret_Police_Chief = {\n        random = no\n\n        stability_factor = -0.05\n        resistance_growth = -0.20\n        compliance_gain = -0.05\n        political_power_factor = 0.10\n        drift_defence_factor = 0.20\n        national_populism_drift = 0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Economy_Royal_Treasurer": {
+            "name": "RUM_Economy_Royal_Treasurer",
+            "display_name": "Economy Royal Treasurer",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "    RUM_Economy_Royal_Treasurer = {\n        random = no\n\n        consumer_goods_factor = -0.05\n        political_power_factor = 0.05\n        stability_factor = 0.05\n        economy_cost_factor = -0.10\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Economy_Industrial_Planner": {
+            "name": "RUM_Economy_Industrial_Planner",
+            "display_name": "Economy Industrial Planner",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "production_speed_industrial_complex_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "production_speed_arms_factory_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.03"
+                }
+            ],
+            "definition": "    RUM_Economy_Industrial_Planner = {\n        random = no\n\n        production_speed_industrial_complex_factor = 0.10\n        production_speed_arms_factory_factor = 0.05\n        production_factory_efficiency_gain_factor = 0.05\n        consumer_goods_factor = 0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Economy_Corrupt_Aristocrat": {
+            "name": "RUM_Economy_Corrupt_Aristocrat",
+            "display_name": "Economy Corrupt Aristocrat",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "    RUM_Economy_Corrupt_Aristocrat = {\n        random = no\n\n        consumer_goods_factor = 0.08\n        political_power_factor = 0.10\n        stability_factor = -0.05\n        production_factory_efficiency_gain_factor = -0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Intelligence_Royal_Spymaster": {
+            "name": "RUM_Intelligence_Royal_Spymaster",
+            "display_name": "Intelligence Royal Spymaster",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "operative_slot",
+                    "value": "1"
+                },
+                {
+                    "modifier": "agency_upgrade_time",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "intelligence_agency_defense",
+                    "value": "1"
+                },
+                {
+                    "modifier": "intel_network_gain_factor",
+                    "value": "0.2"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "subversive_activites_upkeep",
+                    "value": "-0.15"
+                }
+            ],
+            "definition": "    RUM_Intelligence_Royal_Spymaster = {\n        random = no\n\n\t\toperative_slot = 1\n\t\tagency_upgrade_time = -0.15\n\t\tintelligence_agency_defense = 1\n\t\tintel_network_gain_factor = 0.2\n        resistance_growth = -0.05\n        subversive_activites_upkeep = -0.15\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Intelligence_Counter_Subversion_Expert": {
+            "name": "RUM_Intelligence_Counter_Subversion_Expert",
+            "display_name": "Intelligence Counter Subversion Expert",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "communism_acceptance",
+                    "value": "-10"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "-0.02"
+                }
+            ],
+            "definition": "    RUM_Intelligence_Counter_Subversion_Expert = {\n        random = no\n\n        drift_defence_factor = 0.25\n        stability_factor = 0.05\n        resistance_growth = -0.10\n        communism_acceptance = -10\n        socialism_drift = -0.02\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Intelligence_Foreign_Operations_Director": {
+            "name": "RUM_Intelligence_Foreign_Operations_Director",
+            "display_name": "Intelligence Foreign Operations Director",
+            "category": "ministers",
+            "category_label": "Ministers and government advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "send_volunteers_tension",
+                    "value": "-0.25"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "subversive_activites_upkeep",
+                    "value": "-0.15"
+                }
+            ],
+            "definition": "    RUM_Intelligence_Foreign_Operations_Director = {\n        random = no\n\n        justify_war_goal_time = -0.10\n        send_volunteers_tension = -0.25\n        political_power_factor = 0.05\n        subversive_activites_upkeep = -0.15\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Revolutionary_Union_Organizer": {
+            "name": "RUM_Revolutionary_Union_Organizer",
+            "display_name": "Revolutionary Union Organizer",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "communism_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.02"
+                }
+            ],
+            "definition": "    RUM_Revolutionary_Union_Organizer = {\n        random = no\n\n        communism_drift = 0.08\n        socialism_drift = 0.04\n        stability_factor = -0.03\n        political_power_factor = 0.05\n        consumer_goods_factor = -0.02\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Socialist_Party_Theorist": {
+            "name": "RUM_Socialist_Party_Theorist",
+            "display_name": "Socialist Party Theorist",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "communism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "    RUM_Socialist_Party_Theorist = {\n        random = no\n\n        socialism_drift = 0.08\n        communism_drift = 0.02\n        research_speed_factor = 0.03\n        stability_factor = 0.03\n        political_power_factor = 0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Progressive_Civil_Reformer": {
+            "name": "RUM_Progressive_Civil_Reformer",
+            "display_name": "Progressive Civil Reformer",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "    RUM_Progressive_Civil_Reformer = {\n        random = no\n\n        progressivism_drift = 0.08\n        liberalism_drift = 0.03\n        stability_factor = 0.05\n        political_power_factor = 0.05\n        party_popularity_stability_factor = 0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Liberal_Constitutionalist": {
+            "name": "RUM_Liberal_Constitutionalist",
+            "display_name": "Liberal Constitutionalist",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_Liberal_Constitutionalist = {\n        random = no\n\n        liberalism_drift = 0.08\n        progressivism_drift = 0.02\n        political_power_factor = 0.08\n        economy_cost_factor = -0.05\n        stability_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Conservative_Statesman": {
+            "name": "RUM_Conservative_Statesman",
+            "display_name": "Conservative Statesman",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.03"
+                }
+            ],
+            "definition": "    RUM_Conservative_Statesman = {\n        random = no\n\n        conservatism_drift = 0.08\n        paternal_despotism_drift = 0.02\n        stability_factor = 0.08\n        drift_defence_factor = 0.10\n        political_power_factor = 0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Emergency_Power_Broker": {
+            "name": "RUM_Emergency_Power_Broker",
+            "display_name": "Emergency Power Broker",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "    RUM_Emergency_Power_Broker = {\n        random = no\n\n        anocracy_drift = 0.08\n        conservatism_drift = 0.02\n        political_power_factor = 0.10\n        stability_factor = -0.05\n        drift_defence_factor = 0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_National_Populist_Agitator": {
+            "name": "RUM_National_Populist_Agitator",
+            "display_name": "National Populist Agitator",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "    RUM_National_Populist_Agitator = {\n        random = no\n\n        national_populism_drift = 0.08\n        paternal_despotism_drift = 0.02\n        war_support_factor = 0.08\n        stability_factor = -0.05\n        justify_war_goal_time = -0.10\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Coalition_Parliamentarian": {
+            "name": "RUM_Coalition_Parliamentarian",
+            "display_name": "Coalition Parliamentarian",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.08"
+                }
+            ],
+            "definition": "    RUM_Coalition_Parliamentarian = {\n        random = no\n\n        anocracy_drift = 0.04\n        progressivism_drift = 0.03\n        liberalism_drift = 0.03\n        political_power_factor = 0.08\n        party_popularity_stability_factor = 0.08\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Radical_National_Syndicalist": {
+            "name": "RUM_Radical_National_Syndicalist",
+            "display_name": "Radical National Syndicalist",
+            "category": "ideological",
+            "category_label": "Non-royal ideological advisors",
+            "direct_modifiers": [
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "communism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "production_speed_arms_factory_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "    RUM_Radical_National_Syndicalist = {\n        random = no\n\n        national_populism_drift = 0.04\n        socialism_drift = 0.04\n        communism_drift = 0.02\n        war_support_factor = 0.05\n        stability_factor = -0.05\n        production_speed_arms_factory_factor = 0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Major_industrialist": {
+            "name": "RUM_Major_industrialist",
+            "display_name": "Architect of Heavy Industry",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "production_speed_industrial_complex_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.04"
+                }
+            ],
+            "definition": "    RUM_Major_industrialist = { #Architect of Heavy Industry\n        random = no\n\n        liberalism_drift = 0.04\n        conservatism_drift = 0.03\n        production_speed_industrial_complex_factor = 0.08\n        production_factory_efficiency_gain_factor = 0.04\n        consumer_goods_factor = 0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Influential_banker": {
+            "name": "RUM_Influential_banker",
+            "display_name": "Master of Capital",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.08"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.04"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.04"
+                }
+            ],
+            "definition": "    RUM_Influential_banker = { #Master of Capital\n        random = no\n\n        liberalism_drift = 0.06\n        anocracy_drift = 0.02\n        economy_cost_factor = -0.08\n        consumer_goods_factor = -0.04\n        stability_factor = -0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Media_owner": {
+            "name": "RUM_Media_owner",
+            "display_name": "Kingmaker of the Press",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "-0.08"
+                }
+            ],
+            "definition": "    RUM_Media_owner = { #Kingmaker of the Press\n        random = no\n\n        liberalism_drift = 0.04\n        anocracy_drift = 0.03\n        political_power_factor = 0.08\n        party_popularity_stability_factor = 0.06\n        drift_defence_factor = -0.08\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Trade_union_leader": {
+            "name": "RUM_Trade_union_leader",
+            "display_name": "Voice of Organized Labour",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "communism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "production_speed_arms_factory_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_Trade_union_leader = { #Voice of Organized Labour\n        random = no\n\n        socialism_drift = 0.07\n        communism_drift = 0.03\n        stability_factor = 0.06\n        production_factory_efficiency_gain_factor = 0.03\n        production_speed_arms_factory_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Renowned_academic": {
+            "name": "RUM_Renowned_academic",
+            "display_name": "Intellectual Authority",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "-0.04"
+                }
+            ],
+            "definition": "    RUM_Renowned_academic = { #Intellectual Authority\n        random = no\n\n        progressivism_drift = 0.06\n        liberalism_drift = 0.03\n        research_speed_factor = 0.07\n        political_power_factor = 0.03\n        war_support_factor = -0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Religious_leader": {
+            "name": "RUM_Religious_leader",
+            "display_name": "Guardian of the Faith",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_Religious_leader = { #Guardian of the Faith\n        random = no\n\n        conservatism_drift = 0.06\n        paternal_despotism_drift = 0.03\n        stability_factor = 0.10\n        drift_defence_factor = 0.10\n        research_speed_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Prominent_lawyer": {
+            "name": "RUM_Prominent_lawyer",
+            "display_name": "Defender of Constitutional Order",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.12"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "0.08"
+                }
+            ],
+            "definition": "    RUM_Prominent_lawyer = { #Defender of Constitutional Order\n        random = no\n\n        liberalism_drift = 0.06\n        progressivism_drift = 0.03\n        drift_defence_factor = 0.12\n        political_power_factor = 0.05\n        justify_war_goal_time = 0.08\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Respected_physician": {
+            "name": "RUM_Respected_physician",
+            "display_name": "Champion of Public Health",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.04"
+                }
+            ],
+            "definition": "    RUM_Respected_physician = { #Champion of Public Health\n        random = no\n\n        progressivism_drift = 0.05\n        socialism_drift = 0.03\n        stability_factor = 0.08\n        research_speed_factor = 0.04\n        consumer_goods_factor = 0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Technology_entrepreneur": {
+            "name": "RUM_Technology_entrepreneur",
+            "display_name": "Disruptive Innovator",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.04"
+                }
+            ],
+            "definition": "    RUM_Technology_entrepreneur = { #Disruptive Innovator\n        random = no\n\n        liberalism_drift = 0.05\n        progressivism_drift = 0.04\n        research_speed_factor = 0.06\n        production_factory_efficiency_gain_factor = 0.05\n        stability_factor = -0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Lobbyist": {
+            "name": "RUM_Lobbyist",
+            "display_name": "Power Behind Closed Doors",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "    RUM_Lobbyist = { #Power Behind Closed Doors\n        random = no\n\n        liberalism_drift = 0.03\n        anocracy_drift = 0.04\n        political_power_factor = 0.10\n        economy_cost_factor = -0.05\n        stability_factor = -0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Humanitarian_organization_director": {
+            "name": "RUM_Humanitarian_organization_director",
+            "display_name": "International Humanitarian",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "    RUM_Humanitarian_organization_director = { #International Humanitarian\n        random = no\n\n        progressivism_drift = 0.06\n        socialism_drift = 0.03\n        compliance_gain = 0.08\n        stability_factor = 0.05\n        war_support_factor = -0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Veterans_association_leader": {
+            "name": "RUM_Veterans_association_leader",
+            "display_name": "Voice of the Veterans",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "army_morale_factor",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.03"
+                }
+            ],
+            "definition": "    RUM_Veterans_association_leader = { #Voice of the Veterans\n        random = no\n\n        conservatism_drift = 0.05\n        national_populism_drift = 0.03\n        war_support_factor = 0.10\n        army_morale_factor = 0.04\n        consumer_goods_factor = 0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Student_leader": {
+            "name": "RUM_Student_leader",
+            "display_name": "Voice of a New Generation",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "    RUM_Student_leader = { #Voice of a New Generation\n        random = no\n\n        progressivism_drift = 0.07\n        socialism_drift = 0.03\n        political_power_factor = 0.06\n        research_speed_factor = 0.03\n        stability_factor = -0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Representative_of_the_nobility": {
+            "name": "RUM_Representative_of_the_nobility",
+            "display_name": "Defender of Noble Privileges",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.04"
+                }
+            ],
+            "definition": "    RUM_Representative_of_the_nobility = { #Defender of Noble Privileges\n        random = no\n\n        paternal_despotism_drift = 0.07\n        conservatism_drift = 0.03\n        stability_factor = 0.08\n        political_power_factor = 0.05\n        consumer_goods_factor = 0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Minority_spokesperson": {
+            "name": "RUM_Minority_spokesperson",
+            "display_name": "Advocate of Minority Rights",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_Minority_spokesperson = { #Advocate of Minority Rights\n        random = no\n\n        progressivism_drift = 0.06\n        liberalism_drift = 0.04\n        compliance_gain = 0.10\n        resistance_growth = -0.05\n        political_power_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Political_activist": {
+            "name": "RUM_Political_activist",
+            "display_name": "Relentless Campaigner",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "communism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.06"
+                }
+            ],
+            "definition": "    RUM_Political_activist = { #Relentless Campaigner\n        random = no\n\n        communism_drift = 0.03\n        socialism_drift = 0.03\n        progressivism_drift = 0.03\n        political_power_factor = 0.08\n        stability_factor = -0.06\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Community_organizer": {
+            "name": "RUM_Community_organizer",
+            "display_name": "Grassroots Mobilizer",
+            "category": "influential",
+            "category_label": "Influential professions outside government",
+            "direct_modifiers": [
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "party_popularity_stability_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_Community_organizer = { #Grassroots Mobilizer\n        random = no\n\n        socialism_drift = 0.05\n        progressivism_drift = 0.04\n        compliance_gain = 0.06\n        party_popularity_stability_factor = 0.07\n        political_power_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Corrupt_Industrialist": {
+            "name": "RUM_Corrupt_Industrialist",
+            "display_name": "Profiteer of the Realm",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "production_speed_industrial_complex_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.07"
+                }
+            ],
+            "definition": "    RUM_Corrupt_Industrialist = { #Profiteer of the Realm\n        random = no\n\n        anocracy_drift = 0.06\n        liberalism_drift = 0.02\n        production_speed_industrial_complex_factor = 0.06\n        consumer_goods_factor = 0.08\n        stability_factor = -0.07\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Arrogant_General": {
+            "name": "RUM_Arrogant_General",
+            "display_name": "Unquestioned Military Genius",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "army_attack_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "high_command_cost_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "    RUM_Arrogant_General = { #Unquestioned Military Genius\n        random = no\n\n        national_populism_drift = 0.05\n        paternal_despotism_drift = 0.03\n        army_attack_factor = 0.05\n        high_command_cost_factor = 0.15\n        stability_factor = -0.05\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Paranoid_Intelligence_Director": {
+            "name": "RUM_Paranoid_Intelligence_Director",
+            "display_name": "Enemies Everywhere",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.20"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.08"
+                }
+            ],
+            "definition": "    RUM_Paranoid_Intelligence_Director = { #Enemies Everywhere\n        random = no\n\n        paternal_despotism_drift = 0.05\n        anocracy_drift = 0.04\n        drift_defence_factor = 0.20\n        resistance_growth = -0.10\n        stability_factor = -0.08\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Indecisive_Prime_Minister": {
+            "name": "RUM_Indecisive_Prime_Minister",
+            "display_name": "Government by Hesitation",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.06"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "0.12"
+                },
+                {
+                    "modifier": "mobilization_laws_cost_factor",
+                    "value": "0.12"
+                }
+            ],
+            "definition": "    RUM_Indecisive_Prime_Minister = { #Government by Hesitation\n        random = no\n\n        anocracy_drift = 0.07\n        political_power_factor = -0.10\n        stability_factor = -0.06\n        economy_cost_factor = 0.12\n        mobilization_laws_cost_factor = 0.12\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Nepotistic_Minister": {
+            "name": "RUM_Nepotistic_Minister",
+            "display_name": "Family Before Country",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "political_advisor_cost_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.07"
+                }
+            ],
+            "definition": "    RUM_Nepotistic_Minister = { #Family Before Country\n        random = no\n\n        paternal_despotism_drift = 0.05\n        anocracy_drift = 0.03\n        political_advisor_cost_factor = 0.15\n        political_power_factor = 0.05\n        stability_factor = -0.07\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Dogmatic_Professor": {
+            "name": "RUM_Dogmatic_Professor",
+            "display_name": "Prisoner of Doctrine",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "communism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "conservatism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.12"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "-0.04"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "-0.03"
+                }
+            ],
+            "definition": "    RUM_Dogmatic_Professor = { #Prisoner of Doctrine\n        random = no\n\n        communism_drift = 0.04\n        conservatism_drift = 0.04\n        drift_defence_factor = 0.12\n        research_speed_factor = -0.04\n        political_power_factor = -0.03\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Reckless_Defence_Minister": {
+            "name": "RUM_Reckless_Defence_Minister",
+            "display_name": "Victory at Any Cost",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "0.12"
+                },
+                {
+                    "modifier": "army_attack_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.08"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.06"
+                }
+            ],
+            "definition": "    RUM_Reckless_Defence_Minister = { #Victory at Any Cost\n        random = no\n\n        national_populism_drift = 0.07\n        war_support_factor = 0.12\n        army_attack_factor = 0.05\n        stability_factor = -0.08\n        consumer_goods_factor = 0.06\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Manipulative_Propaganda_Director": {
+            "name": "RUM_Manipulative_Propaganda_Director",
+            "display_name": "Architect of Manufactured Truth",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.06"
+                }
+            ],
+            "definition": "    RUM_Manipulative_Propaganda_Director = { #Architect of Manufactured Truth\n        random = no\n\n        national_populism_drift = 0.05\n        paternal_despotism_drift = 0.04\n        political_power_factor = 0.10\n        drift_defence_factor = 0.15\n        stability_factor = -0.06\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Greedy_Banker": {
+            "name": "RUM_Greedy_Banker",
+            "display_name": "Profit Above the Nation",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "economy_cost_factor",
+                    "value": "-0.08"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.06"
+                }
+            ],
+            "definition": "    RUM_Greedy_Banker = { #Profit Above the Nation\n        random = no\n\n        liberalism_drift = 0.04\n        anocracy_drift = 0.04\n        economy_cost_factor = -0.08\n        consumer_goods_factor = 0.07\n        stability_factor = -0.06\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Authoritarian_Prefect": {
+            "name": "RUM_Authoritarian_Prefect",
+            "display_name": "Order Through Fear",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "resistance_growth",
+                    "value": "-0.12"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "compliance_gain",
+                    "value": "-0.07"
+                }
+            ],
+            "definition": "    RUM_Authoritarian_Prefect = { #Order Through Fear\n        random = no\n\n        paternal_despotism_drift = 0.07\n        anocracy_drift = 0.03\n        resistance_growth = -0.12\n        political_power_factor = 0.06\n        compliance_gain = -0.07\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Cowardly_Diplomat": {
+            "name": "RUM_Cowardly_Diplomat",
+            "display_name": "Peace at Any Price",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "liberalism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "progressivism_drift",
+                    "value": "0.02"
+                },
+                {
+                    "modifier": "faction_trade_opinion_factor",
+                    "value": "0.10"
+                },
+                {
+                    "modifier": "war_support_factor",
+                    "value": "-0.08"
+                },
+                {
+                    "modifier": "justify_war_goal_time",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "    RUM_Cowardly_Diplomat = { #Peace at Any Price\n        random = no\n\n        liberalism_drift = 0.05\n        progressivism_drift = 0.02\n        faction_trade_opinion_factor = 0.10\n        war_support_factor = -0.08\n        justify_war_goal_time = 0.15\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Fanatical_Religious_Leader": {
+            "name": "RUM_Fanatical_Religious_Leader",
+            "display_name": "Divine Authority",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "paternal_despotism_drift",
+                    "value": "0.07"
+                },
+                {
+                    "modifier": "national_populism_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "0.06"
+                },
+                {
+                    "modifier": "drift_defence_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "-0.06"
+                }
+            ],
+            "definition": "    RUM_Fanatical_Religious_Leader = { #Divine Authority\n        random = no\n\n        paternal_despotism_drift = 0.07\n        national_populism_drift = 0.04\n        stability_factor = 0.06\n        drift_defence_factor = 0.15\n        research_speed_factor = -0.06\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Negligent_Health_Minister": {
+            "name": "RUM_Negligent_Health_Minister",
+            "display_name": "Public Health Afterthought",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.03"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.10"
+                },
+                {
+                    "modifier": "research_speed_factor",
+                    "value": "-0.04"
+                }
+            ],
+            "definition": "    RUM_Negligent_Health_Minister = { #Public Health Afterthought\n        random = no\n\n        anocracy_drift = 0.05\n        political_power_factor = 0.04\n        consumer_goods_factor = -0.03\n        stability_factor = -0.10\n        research_speed_factor = -0.04\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_Opportunistic_Trade_Union_Leader": {
+            "name": "RUM_Opportunistic_Trade_Union_Leader",
+            "display_name": "Worker's Cause for Personal Gain",
+            "category": "negative",
+            "category_label": "Negative personalities and professions",
+            "direct_modifiers": [
+                {
+                    "modifier": "socialism_drift",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "anocracy_drift",
+                    "value": "0.04"
+                },
+                {
+                    "modifier": "political_power_factor",
+                    "value": "0.08"
+                },
+                {
+                    "modifier": "production_factory_efficiency_gain_factor",
+                    "value": "-0.04"
+                },
+                {
+                    "modifier": "stability_factor",
+                    "value": "-0.06"
+                }
+            ],
+            "definition": "    RUM_Opportunistic_Trade_Union_Leader = { #Worker's Cause for Personal Gain\n        random = no\n\n        socialism_drift = 0.05\n        anocracy_drift = 0.04\n        political_power_factor = 0.08\n        production_factory_efficiency_gain_factor = -0.04\n        stability_factor = -0.06\n    }",
+            "duplicate_count": 1
+        },
+        "RUM_council_of_theorists": {
+            "name": "RUM_council_of_theorists",
+            "display_name": "council of theorists",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "experience_gain_army",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "experience_gain_air",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "experience_gain_navy",
+                    "value": "0.03"
+                },
+                {
+                    "modifier": "land_doctrine_cost_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "air_doctrine_cost_factor",
+                    "value": "-0.05"
+                },
+                {
+                    "modifier": "naval_doctrine_cost_factor",
+                    "value": "-0.05"
+                }
+            ],
+            "definition": "\tRUM_council_of_theorists = {\n\t\tsprite = 14\n\t\texperience_gain_army = 0.03\n\t\texperience_gain_air = 0.03\n\t\texperience_gain_navy = 0.03\n\t\tland_doctrine_cost_factor = -0.05\n\t\tair_doctrine_cost_factor = -0.05\n\t\tnaval_doctrine_cost_factor = -0.05\n\n\t\tai_will_do = {\n\t\t\tfactor = 3\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_military_theorist": {
+            "name": "RUM_military_theorist",
+            "display_name": "military theorist",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "land_doctrine_cost_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_military_theorist = {\n\t\tsprite = 14\n\t\tland_doctrine_cost_factor = -0.1\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_mobile_warfare_expert": {
+            "name": "RUM_mobile_warfare_expert",
+            "display_name": "mobile warfare expert",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_mobile_warfare_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_mobile_warfare_expert = {\n\t\tsprite = 14\n\t\tnew_mobile_warfare_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_superior_firepower_expert": {
+            "name": "RUM_superior_firepower_expert",
+            "display_name": "superior firepower expert",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "superior_firepower_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_superior_firepower_expert = {\n\t\tsprite = 14\n\t\tsuperior_firepower_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_grand_battle_plan_expert": {
+            "name": "RUM_grand_battle_plan_expert",
+            "display_name": "grand battle plan expert",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "grand_battleplan_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_grand_battle_plan_expert = {\n\t\tsprite = 14\n\t\tgrand_battleplan_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_mass_assault_expert": {
+            "name": "RUM_mass_assault_expert",
+            "display_name": "mass assault expert",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "mass_assault_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_mass_assault_expert = {\n\t\tsprite = 14\n\t\tmass_assault_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_air_warfare_theorist": {
+            "name": "RUM_air_warfare_theorist",
+            "display_name": "air warfare theorist",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "air_doctrine_cost_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_air_warfare_theorist = {\n\t\tsprite = 14\n\t\tair_doctrine_cost_factor = -0.1\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_dive_bomber": {
+            "name": "RUM_dive_bomber",
+            "display_name": "dive bomber",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "air_doctrine_cost_factor",
+                    "value": "-0.10"
+                }
+            ],
+            "definition": "\tRUM_dive_bomber = {\n\t\tsprite = 14\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_cas_airframe = {\n\t\t\t\tinstant = yes\n\t\t\t\tair_ground_attack = 0.1\n\t\t\t}\n\t\t}\n\t\tair_doctrine_cost_factor = -0.10\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_victory_through_airpower": {
+            "name": "RUM_victory_through_airpower",
+            "display_name": "victory through airpower",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_strategic_destruction_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_victory_through_airpower = {\n\t\tsprite = 14\n\t\tnew_strategic_destruction_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_close_air_support_proponent": {
+            "name": "RUM_close_air_support_proponent",
+            "display_name": "close air support proponent",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_battlefield_support_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_close_air_support_proponent = {\n\t\tsprite = 14\n\t\tnew_battlefield_support_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_assault_avaition": {
+            "name": "RUM_assault_avaition",
+            "display_name": "assault avaition",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_operational_integrity_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_assault_avaition = {\n\t\tsprite = 14\n\t\tnew_operational_integrity_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_naval_theorist": {
+            "name": "RUM_naval_theorist",
+            "display_name": "naval theorist",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "naval_doctrine_cost_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_naval_theorist = {\n\t\tsprite = 14\n\t\tnaval_doctrine_cost_factor = -0.1\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_naval_aviation_pioneer": {
+            "name": "RUM_naval_aviation_pioneer",
+            "display_name": "naval aviation pioneer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_base_strike_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_naval_aviation_pioneer = {\n\t\tsprite = 14\n\t\tnew_base_strike_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_grand_fleet_proponent": {
+            "name": "RUM_grand_fleet_proponent",
+            "display_name": "grand fleet proponent",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_fleet_in_being_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_grand_fleet_proponent = {\n\t\tsprite = 14\n\t\tnew_fleet_in_being_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_submarine_specialist": {
+            "name": "RUM_submarine_specialist",
+            "display_name": "submarine specialist",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_convoy_raiding_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_submarine_specialist = {\n\t\tsprite = 14\n\t\tnew_convoy_raiding_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_blitzkrieg_theorist": {
+            "name": "RUM_blitzkrieg_theorist",
+            "display_name": "blitzkrieg theorist",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "new_mobile_warfare_mastery_gain_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_blitzkrieg_theorist = {\n\t\tsprite = 14\n\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\tinstant = yes\n\t\t\t\tmaximum_speed = 0.10\n\t\t\t}\n\t\t}\n\t\tnew_mobile_warfare_mastery_gain_factor = 0.15\n\n\t\tai_will_do = {\n\t\t\tfactor = 5\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_aircraft_manufacturer": {
+            "name": "RUM_aircraft_manufacturer",
+            "display_name": "aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_aircraft_manufacturer = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_light_aircraft_manufacturer": {
+            "name": "RUM_light_aircraft_manufacturer",
+            "display_name": "light aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_light_aircraft_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_airframe = {\n\t\t\t\tair_agility = 0.1 maximum_speed = 0.1\n\t\t\t}\n\t\t\tcv_small_plane_airframe = {\n\t\t\t\tair_agility = 0.1 maximum_speed = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_light_aircraft_manufacturer_2": {
+            "name": "RUM_light_aircraft_manufacturer_2",
+            "display_name": "light aircraft manufacturer 2",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_light_aircraft_manufacturer_2 = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_airframe = {\n\t\t\t\tair_agility = 0.2 maximum_speed = 0.1\n\t\t\t}\n\t\t\tcv_small_plane_airframe = {\n\t\t\t\tair_agility = 0.2 maximum_speed = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 2\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_CAS_manufacturer": {
+            "name": "RUM_CAS_manufacturer",
+            "display_name": "CAS manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_CAS_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_cas_airframe = {\n\t\t\t\tair_ground_attack = 0.1 reliability = 0.1\n\t\t\t}\n\t\t\tcv_small_plane_cas_airframe = {\n\t\t\t\tair_ground_attack = 0.1 reliability = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_medium_aircraft_manufacturer": {
+            "name": "RUM_medium_aircraft_manufacturer",
+            "display_name": "medium aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_medium_aircraft_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tmedium_plane_fighter_airframe = {\n\t\t\t\treliability = 0.2\n\t\t\t}\n\t\t\tmedium_plane_airframe = {\n\t\t\t\treliability = 0.2\n\t\t\t}\n\t\t\tmedium_plane_scout_plane_airframe = {\n\t\t\t\treliability = 0.2\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_fuel_efficient_aircraft_manufacturer": {
+            "name": "RUM_fuel_efficient_aircraft_manufacturer",
+            "display_name": "fuel efficient aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_fuel_efficient_aircraft_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_airframe = {\n\t\t\t\tair_range = 0.1\n\t\t\t}\n\t\t\tmedium_plane_fighter_airframe = {\n\t\t\t\tair_range = 0.1\n\t\t\t\treliability = 0.2\n\t\t\t}\n\t\t\tmedium_plane_airframe = {\n\t\t\t\treliability = 0.2\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_heavy_aircraft_manufacturer": {
+            "name": "RUM_heavy_aircraft_manufacturer",
+            "display_name": "heavy aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_heavy_aircraft_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\n\t\t\tlarge_plane_airframe = {\n\t\t\t\tair_bombing = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_naval_aircraft_manufacturer": {
+            "name": "RUM_naval_aircraft_manufacturer",
+            "display_name": "naval aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_naval_aircraft_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_naval_bomber_airframe = {\n\t\t\t\tair_range = 0.1 naval_strike_attack = 0.1\n\t\t\t}\n\t\t\tcv_small_plane_naval_bomber_airframe = {\n\t\t\t\tair_range = 0.1 naval_strike_attack = 0.1\n\t\t\t}\n\t\t\tcv_small_plane_airframe = {\n\t\t\t\tair_range = 0.1 air_agility = 0.1\n\t\t\t}\n\t\t\tcv_small_plane_cas_airframe = {\n\t\t\t\tair_range = 0.1 naval_strike_attack = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_multi_role_aircraft_manufacturer": {
+            "name": "RUM_multi_role_aircraft_manufacturer",
+            "display_name": "multi role aircraft manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_multi_role_aircraft_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tsmall_plane_naval_bomber_airframe = {\n\t\t\t\treliability = 0.1\n\t\t\t}\n\t\t\tmedium_plane_airframe = {\n\t\t\t\treliability = 0.1\n\t\t\t}\n\t\t\tsmall_plane_cas_airframe = {\n\t\t\t\treliability = 0.1\n\t\t\t}\n\t\t\tmedium_plane_scout_plane_airframe = {\n\t\t\t\treliability = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_aircraft_production_plant": {
+            "name": "RUM_aircraft_production_plant",
+            "display_name": "aircraft production plant",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_aircraft_production_plant = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\n\t\tequipment_bonus = {\n\n\t\t\tlarge_plane_airframe = {\n\t\t\t\tbuild_cost_ic = -0.1 instant = yes\n\t\t\t}\n\n\t\t\tsmall_plane_airframe = {\n\t\t\t\tbuild_cost_ic = -0.1 instant = yes\n\t\t\t}\n\t\t\t\n\t\t\tmedium_plane_airframe = {\n\t\t\t\tbuild_cost_ic = -0.1 instant = yes\n\t\t\t}\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_tank_refurbishment_plant": {
+            "name": "RUM_tank_refurbishment_plant",
+            "display_name": "NSB",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_tank_refurbishment_plant = { #NSB\n\t\trandom = no\n\t\t#generic\n\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\treliability = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_fast_tank_manufacturer": {
+            "name": "RUM_fast_tank_manufacturer",
+            "display_name": "fast tank manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_fast_tank_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\tmaximum_speed = 0.05 reliability = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_armored_car_manufacturer": {
+            "name": "RUM_armored_car_manufacturer",
+            "display_name": "armored car manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_armored_car_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tarmored_car_equipment = {\n\t\t\t\tmaximum_speed = 0.05\n\t\t\t\tsoft_attack = 0.05\n\t\t\t\thard_attack = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_infantry_tank_manufacturer": {
+            "name": "RUM_infantry_tank_manufacturer",
+            "display_name": "infantry tank manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_infantry_tank_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\tsoft_attack = 0.05\n\t\t\t\tarmor_value = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_assault_gun_manufacturer": {
+            "name": "RUM_assault_gun_manufacturer",
+            "display_name": "assault gun manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\t    RUM_assault_gun_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tlight_tank_artillery_chassis = {\n\t\t\t\tsoft_attack = 0.05\n\t\t\t\tarmor_value = 0.05\n\t\t\t\treliability = 0.05\n\t\t\t}\n\t\t\tmedium_tank_artillery_chassis = {\n\t\t\t\tsoft_attack = 0.05\n\t\t\t\tarmor_value = 0.05\n\t\t\t\treliability = 0.05\n\t\t\t}\n\t\t\theavy_tank_artillery_chassis = {\n\t\t\t\tsoft_attack = 0.05\n\t\t\t\tarmor_value = 0.05\n\t\t\t\treliability = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_medium_tank_manufacturer": {
+            "name": "RUM_medium_tank_manufacturer",
+            "display_name": "medium tank manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_medium_tank_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\treliability = 0.05 soft_attack = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_heavy_tank_manufacturer": {
+            "name": "RUM_heavy_tank_manufacturer",
+            "display_name": "heavy tank manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_heavy_tank_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\tarmor_value = 0.05 hard_attack = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_tank_manufacturer": {
+            "name": "RUM_tank_manufacturer",
+            "display_name": "tank manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_tank_manufacturer = {\n\t\trandom = no\n\t\t#generic\n\n\t\tequipment_bonus = {\n\t\t\tarmor = {\n\t\t\t\treliability = 0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_repair_and_refurbishment_plant": {
+            "name": "RUM_repair_and_refurbishment_plant",
+            "display_name": "NSB - Repairs & Refit",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_repair_and_refurbishment_plant = { #NSB - Repairs & Refit\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tscreen_ship = {\n\t\t\t\tbuild_cost_ic = -0.05\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tbuild_cost_ic = -0.05\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tbuild_cost_ic = -0.05\n\t\t\t}\n\t\t\tcarrier = {\n\t\t\t\tbuild_cost_ic = -0.05\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_kurpt_naval_manufacturer": {
+            "name": "RUM_kurpt_naval_manufacturer",
+            "display_name": "NSB - Screen Ships and Submarines",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_kurpt_naval_manufacturer = { #NSB - Screen Ships and Submarines\n\t\trandom = no\n\n\t\tequipment_bonus = {\n\t\t\tscreen_ship = {\n\t\t\t\tbuild_cost_ic = -0.15 sub_detection = 0.1 naval_range = -0.25\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tbuild_cost_ic = -0.15 sub_visibility = -0.1 naval_range = -0.25\n\t\t\t}\n\t\t\tcarrier = {\n\t\t\t\tbuild_cost_ic = 0.15 naval_range = -0.25\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_submarine_manufacturer": {
+            "name": "RUM_submarine_manufacturer",
+            "display_name": "submarine manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_submarine_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcarrier = {\n\t\t\t\tbuild_cost_ic = 0.1\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tbuild_cost_ic = 0.1\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\tbuild_cost_ic = 0.1\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tbuild_cost_ic = -0.1 sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1 naval_range = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_submarine_manufacturer_2": {
+            "name": "RUM_submarine_manufacturer_2",
+            "display_name": "Improved version used for Italy (done in trait in order to keep a nice tooltip)",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_submarine_manufacturer_2 = { #Improved version used for Italy (done in trait in order to keep a nice tooltip)\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcarrier = {\n\t\t\t\tbuild_cost_ic = 0.1\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tbuild_cost_ic = 0.1\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\tbuild_cost_ic = 0.1\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tbuild_cost_ic = -0.15 sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.15 naval_range = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_colonial_fleet_naval_manufacturer": {
+            "name": "RUM_colonial_fleet_naval_manufacturer",
+            "display_name": "longer ranged, CVs favor larger hangers over armor",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_colonial_fleet_naval_manufacturer = { #longer ranged, CVs favor larger hangers over armor\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcarrier = {\n\t\t\t\tcarrier_size = 1 armor_value = -0.15 naval_range = 0.25\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tnaval_range = 0.25\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\tnaval_range = 0.25\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tnaval_range = 0.25\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_ultimate_fleet_naval_manufacturer": {
+            "name": "RUM_ultimate_fleet_naval_manufacturer",
+            "display_name": "armored carriers, slightly buffed cap ships",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_ultimate_fleet_naval_manufacturer = { #armored carriers, slightly buffed cap ships\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcarrier = {\n\t\t\t\tarmor_value = 0.5\n\t\t\t\tmax_strength = 0.1\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tarmor_value = 0.1\n\t\t\t\thg_attack = 0.1\n\t\t\t}\n\t\t\t#screen_ship = {\n\t\t\t#\n\t\t\t#}\n\t\t\t#submarine = {\n\t\t\t#\n\t\t\t#}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_battlefleet_designer": {
+            "name": "RUM_battlefleet_designer",
+            "display_name": "armored carriers, slightly buffed cap ships",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_battlefleet_designer = { #armored carriers, slightly buffed cap ships\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcapital_ship = {\n\t\t\t\tarmor_value = 0.15\n\t\t\t\thg_attack = 0.15\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\ttorpedo_attack = 0.25\n\t\t\t\tsub_detection = -0.25\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_raiding_fleet_naval_manufacturer": {
+            "name": "RUM_raiding_fleet_naval_manufacturer",
+            "display_name": "raiding fleet naval manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_raiding_fleet_naval_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcarrier = {\n\t\t\t\tsurface_visibility = -0.1\n\t\t\t\tnaval_speed = 0.1\n\t\t\t\t#carrier_size = -0.1\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tsurface_visibility = -0.1 naval_speed = 0.1 hg_attack = -0.1\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\tsurface_visibility = -0.1 naval_speed = 0.1\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tsub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_convoy_escort_naval_manufacturer": {
+            "name": "RUM_convoy_escort_naval_manufacturer",
+            "display_name": "convoy escort naval manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_convoy_escort_naval_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tscreen_ship = {\n\t\t\t\tnaval_range = 0.3 sub_detection = 0.1 naval_speed = 0.1 build_cost_ic = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_old_naval_manufacturer": {
+            "name": "RUM_old_naval_manufacturer",
+            "display_name": "old naval manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_old_naval_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcapital_ship = {\n\t\t\t\tnaval_range = -0.25 naval_speed = 0.1\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\tnaval_range = -0.25 naval_speed = 0.1\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_coastal_defence_naval_manufacturer": {
+            "name": "RUM_coastal_defence_naval_manufacturer",
+            "display_name": "coastal defence naval manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_coastal_defence_naval_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tcarrier = {\n\t\t\t\tbuild_cost_ic = -0.25\n\t\t\t\t#carrier_size = -0.2\n\t\t\t\tnaval_range = -0.5\n\t\t\t}\n\t\t\tcapital_ship = {\n\t\t\t\tbuild_cost_ic = -0.25 armor_value = -0.2 hg_attack = -0.2 naval_range = -0.5\n\t\t\t}\n\t\t\tscreen_ship = {\n\t\t\t\tbuild_cost_ic = -0.25 naval_range = -0.5\n\t\t\t}\n\t\t\tsubmarine = {\n\t\t\t\tbuild_cost_ic = -0.25 naval_range = -0.5\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_naval_manufacturer": {
+            "name": "RUM_naval_manufacturer",
+            "display_name": "naval manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_naval_manufacturer = {\n\t\trandom = no\n\t\t#generic\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_artillery_manufacturer": {
+            "name": "RUM_artillery_manufacturer",
+            "display_name": "artillery manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_artillery_manufacturer = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_infantry_equipment_manufacturer": {
+            "name": "RUM_infantry_equipment_manufacturer",
+            "display_name": "infantry equipment manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_infantry_equipment_manufacturer = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_support_equipment_manufacturer": {
+            "name": "RUM_support_equipment_manufacturer",
+            "display_name": "support equipment manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_support_equipment_manufacturer = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_motorized_equipment_manufacturer": {
+            "name": "RUM_motorized_equipment_manufacturer",
+            "display_name": "motorized equipment manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_motorized_equipment_manufacturer = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_industrial_concern": {
+            "name": "RUM_industrial_concern",
+            "display_name": "industrial concern",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "country_resource_coal",
+                    "value": "6"
+                },
+                {
+                    "modifier": "local_resources_coal_factor",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_industrial_concern = {\n\t\trandom = no\n\t\tcountry_resource_coal = 6\n\t\tlocal_resources_coal_factor = 0.05\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_railway_company": {
+            "name": "RUM_railway_company",
+            "display_name": "railway company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "production_speed_rail_way_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "production_speed_supply_node_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_railway_company = {\n\t\trandom = no\n\t\tproduction_speed_rail_way_factor = 0.15\n\t\tproduction_speed_supply_node_factor = 0.15\n\t\tequipment_bonus = {\n\t\t\ttrain_equipment = {\n\t\t\t\tinstant = yes\n\t\t\t\tbuild_cost_ic = -0.25\n\t\t\t\tarmor_value = 0.15\n\t\t\t}\n\t\t}\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_transport_company": {
+            "name": "RUM_transport_company",
+            "display_name": "transport company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "production_speed_rail_way_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "production_speed_supply_node_factor",
+                    "value": "0.15"
+                },
+                {
+                    "modifier": "production_speed_naval_base_factor",
+                    "value": "0.15"
+                }
+            ],
+            "definition": "\tRUM_transport_company = {\n\t\trandom = no\n\t\tproduction_speed_rail_way_factor = 0.15\n\t\tproduction_speed_supply_node_factor = 0.15\n\t\tproduction_speed_naval_base_factor = 0.15\n\t\tequipment_bonus = {\n\t\t\ttrain_equipment = {\n\t\t\t\tinstant = yes\n\t\t\t\tbuild_cost_ic = -0.15\n\t\t\t}\n\t\t}\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_civilian_airway_company": {
+            "name": "RUM_civilian_airway_company",
+            "display_name": "civilian airway company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "supply_combat_penalties_on_core_factor",
+                    "value": "-0.15"
+                },
+                {
+                    "modifier": "air_range_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "supply_node_range",
+                    "value": "0.05"
+                }
+            ],
+            "definition": "\tRUM_civilian_airway_company = {\n\t\trandom = no\n\t\t\n\t\tsupply_combat_penalties_on_core_factor = -0.15\n\t\tair_range_factor = 0.05\n\t\tsupply_node_range = 0.05\n\n\t\tequipment_bonus = {\n\t\t\ttransport_plane_equipment = {\n\t\t\t\tinstant = yes\n\t\t\t\tbuild_cost_ic = -0.15\n\t\t\t}\n\t\t}\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_improved_railway_company": {
+            "name": "RUM_improved_railway_company",
+            "display_name": "improved railway company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "production_speed_rail_way_factor",
+                    "value": "0.25"
+                },
+                {
+                    "modifier": "production_speed_supply_node_factor",
+                    "value": "0.3"
+                }
+            ],
+            "definition": "\tRUM_improved_railway_company = {\n\t\trandom = no\n\t\tproduction_speed_rail_way_factor = 0.25\n\t\tproduction_speed_supply_node_factor = 0.3\n\t\tequipment_bonus = {\n\t\t\ttrain_equipment = {\n\t\t\t\tinstant = yes\n\t\t\t\tbuild_cost_ic = -0.25\n\t\t\t\treliability = 0.15\n\t\t\t}\n\t\t}\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_construction_company": {
+            "name": "RUM_construction_company",
+            "display_name": "construction company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "production_speed_infrastructure_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_speed_rail_way_factor",
+                    "value": "0.1"
+                }
+            ],
+            "definition": "\tRUM_construction_company = {\n\t\trandom = no\n\n\t\tproduction_speed_infrastructure_factor = 0.1\n\t\tproduction_speed_rail_way_factor = 0.1\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_resource_development_company": {
+            "name": "RUM_resource_development_company",
+            "display_name": "resource development company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "global_building_slots_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "local_resources_factor",
+                    "value": "0.1"
+                },
+                {
+                    "modifier": "production_lack_of_resource_penalty_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_resource_development_company = {\n\t\trandom = no\n\n\t\tglobal_building_slots_factor = 0.05\n\t\tlocal_resources_factor = 0.1\n\t\tproduction_lack_of_resource_penalty_factor = -0.1\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_resource_development_company_2": {
+            "name": "RUM_resource_development_company_2",
+            "display_name": "resource development company 2",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "global_building_slots_factor",
+                    "value": "0.05"
+                },
+                {
+                    "modifier": "local_resources_factor",
+                    "value": "0.2"
+                },
+                {
+                    "modifier": "production_lack_of_resource_penalty_factor",
+                    "value": "-0.1"
+                }
+            ],
+            "definition": "\tRUM_resource_development_company_2 = {\n\t\trandom = no\n\n\t\tglobal_building_slots_factor = 0.05\n\t\tlocal_resources_factor = 0.2\n\t\tproduction_lack_of_resource_penalty_factor = -0.1\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_diamond_extraction_company": {
+            "name": "RUM_diamond_extraction_company",
+            "display_name": "diamond extraction company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "consumer_goods_factor",
+                    "value": "-0.2"
+                }
+            ],
+            "definition": "\tRUM_diamond_extraction_company = {\n\t\trandom = no\n\n\t\tconsumer_goods_factor = -0.2\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_forestry_company": {
+            "name": "RUM_forestry_company",
+            "display_name": "forestry company",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [
+                {
+                    "modifier": "global_building_slots_factor",
+                    "value": "0.3"
+                }
+            ],
+            "definition": "\tRUM_forestry_company = {\n\t\trandom = no\n\n\t\tglobal_building_slots_factor = 0.3\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_refining_concern": {
+            "name": "RUM_refining_concern",
+            "display_name": "refining concern",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_refining_concern = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_merchant_marine_manufacturer": {
+            "name": "RUM_merchant_marine_manufacturer",
+            "display_name": "merchant marine manufacturer",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_merchant_marine_manufacturer = {\n\t\trandom = no\n\t\tequipment_bonus = {\n\t\t\tconvoy = {\n\t\t\t\treliability = 0.1 build_cost_ic = -0.25\n\t\t\t}\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        },
+        "RUM_refinery_concern": {
+            "name": "RUM_refinery_concern",
+            "display_name": "refinery concern",
+            "category": "army_company",
+            "category_label": "Théoriciens, fabricants et entreprises",
+            "direct_modifiers": [],
+            "definition": "\tRUM_refinery_concern = {\n\t\trandom = no\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t}",
+            "duplicate_count": 1
+        }
+    },
+    "organization_version": 2,
+    "removed_source_duplicates": [
+        "RUM_Duke_of_Eskdaleton"
+    ],
+    "semantic_duplicates_hidden": [
+        "military_theorist",
+        "naval_theorist",
+        "air_warfare_theorist",
+        "mobile_warfare_expert",
+        "superior_firepower_expert",
+        "grand_battle_plan_expert",
+        "mass_assault_expert"
+    ]
+}

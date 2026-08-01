@@ -1,0 +1,539 @@
+{
+    "source": "00_ideologies(1).txt",
+    "family_count": 8,
+    "subtype_count": 111,
+    "families": [
+        {
+            "key": "communism",
+            "display_name": "Communism",
+            "color": [
+                117,
+                20,
+                13
+            ],
+            "subtypes": [
+                {
+                    "key": "communism_generic",
+                    "display_name": "Generic Communism"
+                },
+                {
+                    "key": "communism_malenyevism",
+                    "display_name": "Malenyevism"
+                },
+                {
+                    "key": "communism_reformed_malenyevism",
+                    "display_name": "Reformed Malenyevism - Dengist path of Contana"
+                },
+                {
+                    "key": "communism_national_malenyevism",
+                    "display_name": "National Malenyevism"
+                },
+                {
+                    "key": "communism_marcian_malenyevism",
+                    "display_name": "Marcian-Malenyevism"
+                },
+                {
+                    "key": "communism_securocratic_malenyevism",
+                    "display_name": "Securocratic Malenyevism - United Contana"
+                },
+                {
+                    "key": "communism_galmish_socialism",
+                    "display_name": "Galmish Socialism"
+                },
+                {
+                    "key": "communism_left_wing_nationalism",
+                    "display_name": "Left-Wing Nationalism"
+                },
+                {
+                    "key": "communism_red_junta",
+                    "display_name": "Red Junta"
+                },
+                {
+                    "key": "communism_vanguard_socialism",
+                    "display_name": "Vanguard Socialism - Peoples Provinces of Chuo"
+                }
+            ]
+        },
+        {
+            "key": "socialism",
+            "display_name": "Socialism",
+            "color": [
+                209,
+                0,
+                0
+            ],
+            "subtypes": [
+                {
+                    "key": "socialism_generic",
+                    "display_name": "Generic Socialism"
+                },
+                {
+                    "key": "socialism_valgslandian_socialism",
+                    "display_name": "Valgslandian Socialism"
+                },
+                {
+                    "key": "socialism_democratic_socialism",
+                    "display_name": "Democratic Socialism"
+                },
+                {
+                    "key": "socialism_sordish_socialism",
+                    "display_name": "Sordish Socialism - Communist Party of Sordland"
+                },
+                {
+                    "key": "socialism_anarchism",
+                    "display_name": "Anarchism"
+                },
+                {
+                    "key": "socialism_immediatism",
+                    "display_name": "Immediatism"
+                },
+                {
+                    "key": "socialism_nurist_socialism",
+                    "display_name": "Nurist Socialism"
+                },
+                {
+                    "key": "socialism_agrarian_socialism",
+                    "display_name": "Agrarian Socialism"
+                },
+                {
+                    "key": "socialism_big_tent_socialism",
+                    "display_name": "Big Tent (Socialism)"
+                },
+                {
+                    "key": "socialism_securocratic_socialism",
+                    "display_name": "Securocratic Socialism - Valgsland"
+                },
+                {
+                    "key": "socialism_social_patriotism",
+                    "display_name": "Social Patriotism"
+                },
+                {
+                    "key": "socialism_pan_rikan_socialism",
+                    "display_name": "Pan-Rikan Socialism"
+                },
+                {
+                    "key": "socialism_revolutionary_front",
+                    "display_name": "Revolutionary Front"
+                },
+                {
+                    "key": "socialism_bludish_freedom_front",
+                    "display_name": "Bludish Freedom Front (Socialism)"
+                }
+            ]
+        },
+        {
+            "key": "progressivism",
+            "display_name": "Progressivism",
+            "color": [
+                148,
+                80,
+                142
+            ],
+            "subtypes": [
+                {
+                    "key": "progressivism_generic",
+                    "display_name": "Generic Progressivism"
+                },
+                {
+                    "key": "progressivism_social_democracy",
+                    "display_name": "Social Democracy"
+                },
+                {
+                    "key": "progressivism_centrist_reformism",
+                    "display_name": "Centrist Reformism"
+                },
+                {
+                    "key": "progressivism_republicanism",
+                    "display_name": "Republicanism"
+                },
+                {
+                    "key": "progressivism_constitutional_monarchy",
+                    "display_name": "Constitutional Monarchy - Rizia"
+                },
+                {
+                    "key": "progressivism_liberal_progressevism",
+                    "display_name": "Liberal Progressevism"
+                },
+                {
+                    "key": "progressivism_big_tent_progressive",
+                    "display_name": "Big Tent (Progressive)"
+                },
+                {
+                    "key": "progressivism_council_democracy_progressive",
+                    "display_name": "Council Democracy (Progressive)"
+                },
+                {
+                    "key": "progressivism_nurist_progressivism",
+                    "display_name": "Nurist progressivism"
+                }
+            ]
+        },
+        {
+            "key": "liberalism",
+            "display_name": "Liberalism",
+            "color": [
+                31,
+                121,
+                181
+            ],
+            "subtypes": [
+                {
+                    "key": "liberalism_generic",
+                    "display_name": "Generic Liberalism"
+                },
+                {
+                    "key": "liberalism_walkerism",
+                    "display_name": "Walkerism - Arcasia"
+                },
+                {
+                    "key": "liberalism_liberal_nationalism",
+                    "display_name": "Liberal Nationalism"
+                },
+                {
+                    "key": "liberalism_sordish_liberalism",
+                    "display_name": "Sordish Liberalism - Sordland PFJP"
+                },
+                {
+                    "key": "liberalism_wehzek_liberalism",
+                    "display_name": "Wehzek Liberalism - Wehlen"
+                },
+                {
+                    "key": "liberalism_nurist_liberalism",
+                    "display_name": "Nurist Liberalism"
+                },
+                {
+                    "key": "liberalism_golcondist_liberalism",
+                    "display_name": "Golcondist Liberalism"
+                },
+                {
+                    "key": "liberalism_liberal_technocracy",
+                    "display_name": "Liberal Technocracy"
+                },
+                {
+                    "key": "liberalism_liberal_agrarianism",
+                    "display_name": "Liberal Agrarianism"
+                },
+                {
+                    "key": "liberalism_big_tent_liberal",
+                    "display_name": "Big Tent (Liberal)"
+                },
+                {
+                    "key": "liberalism_liberal_populism",
+                    "display_name": "Liberal populism"
+                },
+                {
+                    "key": "liberalism_radical_liberalism",
+                    "display_name": "Radical Liberalism - Ultra Liberalism"
+                },
+                {
+                    "key": "liberalism_direct_democracy",
+                    "display_name": "Direct Democracy"
+                },
+                {
+                    "key": "liberalism_council_democracy_liberal",
+                    "display_name": "Council Democracy (Liberal)"
+                },
+                {
+                    "key": "liberalism_an_council",
+                    "display_name": "AN-Council - Alliance of Nations Headquarters"
+                },
+                {
+                    "key": "liberalism_confederation_liberal",
+                    "display_name": "Confederation (Liberal) - United Provinces of Chuo"
+                }
+            ]
+        },
+        {
+            "key": "conservativism",
+            "display_name": "Conservatism",
+            "color": [
+                22,
+                37,
+                138
+            ],
+            "subtypes": [
+                {
+                    "key": "conservatism_generic",
+                    "display_name": "Generic Conservatism"
+                },
+                {
+                    "key": "conservatism_wruhecist_conservatism",
+                    "display_name": "Wruhecist Conservatism"
+                },
+                {
+                    "key": "conservatism_alvarezian_democracy",
+                    "display_name": "Alvarezian Democracy - Lespia"
+                },
+                {
+                    "key": "conservatism_sordish_conservatism",
+                    "display_name": "Sordish Conservatism - USP Reformists"
+                },
+                {
+                    "key": "conservatism_big_tent_conservative",
+                    "display_name": "Big Tent (Conservative)"
+                },
+                {
+                    "key": "conservatism_conservative_populism",
+                    "display_name": "Conservative Populism"
+                },
+                {
+                    "key": "conservatism_progressive_conservatism",
+                    "display_name": "Progressive Conservatism"
+                },
+                {
+                    "key": "conservatism_national_conservatism",
+                    "display_name": "National Conservatism"
+                },
+                {
+                    "key": "conservatism_council_democracy_conservative",
+                    "display_name": "Council Democracy (Conservative)"
+                },
+                {
+                    "key": "conservatism_confederation_conservative",
+                    "display_name": "Confederation (Conservative) - United Provinces of Chuo"
+                },
+                {
+                    "key": "conservatism_nurist_democracy",
+                    "display_name": "Nurist democracy (Conservative)"
+                }
+            ]
+        },
+        {
+            "key": "anocracy",
+            "display_name": "Anocracy",
+            "color": [
+                135,
+                135,
+                140
+            ],
+            "subtypes": [
+                {
+                    "key": "anocracy_generic",
+                    "display_name": "Generic Anocracy"
+                },
+                {
+                    "key": "anocracy_sollism",
+                    "display_name": "Sollism - Sordland"
+                },
+                {
+                    "key": "anocracy_neo_sollism",
+                    "display_name": "Neo-Sollism - Sordland"
+                },
+                {
+                    "key": "anocracy_oligarchy",
+                    "display_name": "Oligarchy - Lespia, Sordland and Arcasia"
+                },
+                {
+                    "key": "anocracy_corporatocracy",
+                    "display_name": "Corporatocracy - Lespia and Arcasia"
+                },
+                {
+                    "key": "anocracy_kleptocracy",
+                    "display_name": "Kleptocracy"
+                },
+                {
+                    "key": "anocracy_narcocracy",
+                    "display_name": "Narcocracy"
+                },
+                {
+                    "key": "anocracy_controlled_democracy",
+                    "display_name": "Controlled Democracy"
+                },
+                {
+                    "key": "anocracy_rigth_wing_populism",
+                    "display_name": "Rigth Wing Populism"
+                },
+                {
+                    "key": "anocracy_provisional_government",
+                    "display_name": "Provisional Government"
+                },
+                {
+                    "key": "anocracy_dominant_party_democracy",
+                    "display_name": "Dominant Party Democracy"
+                },
+                {
+                    "key": "anocracy_enforced_democracy",
+                    "display_name": "Enforced Democracy"
+                },
+                {
+                    "key": "anocracy_military_democracy",
+                    "display_name": "Military Democracy"
+                },
+                {
+                    "key": "anocracy_democratic_theocracy",
+                    "display_name": "Democratic Theocracy"
+                },
+                {
+                    "key": "anocracy_directorial_system",
+                    "display_name": "Directorial System"
+                },
+                {
+                    "key": "anocracy_elective_monarchy",
+                    "display_name": "Elective Monarchy"
+                },
+                {
+                    "key": "anocracy_an_mandate",
+                    "display_name": "AN-Mandate"
+                },
+                {
+                    "key": "anocracy_dyarchic_theocracy",
+                    "display_name": "Dyarchic Theocracy - Holy Free City of Wahr"
+                },
+                {
+                    "key": "anocracy_mercenary_state",
+                    "display_name": "Mercenary State"
+                }
+            ]
+        },
+        {
+            "key": "paternal_despotism",
+            "display_name": "Paternal Autocracy",
+            "color": [
+                54,
+                54,
+                54
+            ],
+            "subtypes": [
+                {
+                    "key": "paternal_despotism_generic",
+                    "display_name": "Generic Paternal Autocracy"
+                },
+                {
+                    "key": "paternal_despotism_absolute_monarchy",
+                    "display_name": "Absolute Monarchy - Yudan Dynasty"
+                },
+                {
+                    "key": "paternal_despotism_fundamentalist_golcondism",
+                    "display_name": "Fundamentalist Golcondism"
+                },
+                {
+                    "key": "paternal_despotism_fundamentalist_wruhecism",
+                    "display_name": "Fundamentalist Wruhecism"
+                },
+                {
+                    "key": "paternal_despotism_theocracy",
+                    "display_name": "Theocracy"
+                },
+                {
+                    "key": "paternal_despotism_rizian_theocracy",
+                    "display_name": "Rizian Theocracy - Rizia"
+                },
+                {
+                    "key": "paternal_despotism_rumburgian_monarchism",
+                    "display_name": "Rumburgian Monarchism - Rumburg"
+                },
+                {
+                    "key": "paternal_despotism_rizian_monarchism",
+                    "display_name": "Rizian Monarchism - Rizia"
+                },
+                {
+                    "key": "paternal_despotism_colonial_government",
+                    "display_name": "Colonial Government"
+                },
+                {
+                    "key": "paternal_despotism_national_populism",
+                    "display_name": "National Populism"
+                },
+                {
+                    "key": "paternal_despotism_national_patriotism",
+                    "display_name": "National Patriotism"
+                },
+                {
+                    "key": "paternal_despotism_warlordism",
+                    "display_name": "Warlordism"
+                },
+                {
+                    "key": "paternal_despotism_personalistic_dictatorship",
+                    "display_name": "Personalistic Dictatorship"
+                }
+            ]
+        },
+        {
+            "key": "national_populism",
+            "display_name": "National Populist",
+            "color": [
+                92,
+                58,
+                20
+            ],
+            "subtypes": [
+                {
+                    "key": "national_populism_generic",
+                    "display_name": "Generic National Populist"
+                },
+                {
+                    "key": "national_populism_ultranationalism",
+                    "display_name": "Ultranationalism"
+                },
+                {
+                    "key": "national_populism_sordish_ultranationalism",
+                    "display_name": "Ultranationalism - National Front Party of Sordland"
+                },
+                {
+                    "key": "national_populism_totalism",
+                    "display_name": "Totalism"
+                },
+                {
+                    "key": "national_populism_aristocratic_totalism",
+                    "display_name": "Aristocratic Totalism"
+                },
+                {
+                    "key": "national_populism_theocratic_totalism",
+                    "display_name": "Theocratic Totalism"
+                },
+                {
+                    "key": "national_populism_luderinism",
+                    "display_name": "Luderinism - Black Battalion of Sordland"
+                },
+                {
+                    "key": "national_populism_national_monarchism",
+                    "display_name": "National Monarchism"
+                },
+                {
+                    "key": "national_populism_rizian_absolutism",
+                    "display_name": "Rizian Absolutism - Rizia"
+                },
+                {
+                    "key": "national_populism_integralism",
+                    "display_name": "Integralism"
+                },
+                {
+                    "key": "national_populism_military_junta",
+                    "display_name": "Military Junta - Sordland"
+                },
+                {
+                    "key": "national_populism_militarism",
+                    "display_name": "Militarism"
+                },
+                {
+                    "key": "national_populism_ultra_militarism",
+                    "display_name": "Ultra Militarism"
+                },
+                {
+                    "key": "national_populism_ethno_nationalism",
+                    "display_name": "Ethno-Nationalism"
+                },
+                {
+                    "key": "national_populism_nationalism",
+                    "display_name": "Nationalism"
+                },
+                {
+                    "key": "national_populism_ultra_nationalism",
+                    "display_name": "Ultra-Nationalism"
+                },
+                {
+                    "key": "national_populism_bludish_nationalism",
+                    "display_name": "Bludish Nationalism - Bludia"
+                },
+                {
+                    "key": "national_populism_national_malenyevism",
+                    "display_name": "National Malenyevism - Smolak's Wehlen"
+                },
+                {
+                    "key": "national_populism_royal_dictatorsphip",
+                    "display_name": "Royal Dictatorsphip - Rumburg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,582 @@
+ideologies = {
+
+    # Communism
+    communism = {
+        types = {
+
+            communism_generic = {
+            }
+
+            # Malenyevism
+            communism_malenyevism = {
+            }
+
+            # Reformed Malenyevism - Dengist path of Contana
+            communism_reformed_malenyevism = {
+            }
+
+            # National Malenyevism
+            communism_national_malenyevism = {
+            }
+
+            # Marcian-Malenyevism
+            communism_marcian_malenyevism = {
+            }
+
+            # Securocratic Malenyevism - United Contana
+            communism_securocratic_malenyevism = {
+            }
+
+            # Galmish Socialism
+            communism_galmish_socialism = {
+            }
+
+            # Left-Wing Nationalism
+            communism_left_wing_nationalism = {
+            }
+
+            # Red Junta
+            communism_red_junta = {
+            }
+
+            # Vanguard Socialism - Peoples Provinces of Chuo
+            communism_vanguard_socialism = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 117 20 13 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # Socialism
+    socialism = {
+        types = {
+
+            socialism_generic = {
+            }
+
+            # Valgslandian Socialism
+            socialism_valgslandian_socialism = {
+            }
+
+            # Democratic Socialism
+            socialism_democratic_socialism = {
+            }
+
+            # Sordish Socialism - Communist Party of Sordland
+            socialism_sordish_socialism = {
+            }
+
+            # Anarchism
+            socialism_anarchism = {
+            }
+
+            # Immediatism
+            socialism_immediatism = {
+            }
+
+            # Nurist Socialism
+            socialism_nurist_socialism = {
+            }
+
+            # Agrarian Socialism
+            socialism_agrarian_socialism = {
+            }
+
+            # Big Tent (Socialism)
+            socialism_big_tent_socialism = {
+            }
+
+            # Securocratic Socialism - Valgsland
+            socialism_securocratic_socialism = {
+            }
+
+            # Social Patriotism
+            socialism_social_patriotism = {
+            }
+
+            # Pan-Rikan Socialism
+            socialism_pan_rikan_socialism = {
+            }
+
+            # Revolutionary Front
+            socialism_revolutionary_front = {
+            }
+
+            # Bludish Freedom Front (Socialism)
+            socialism_bludish_freedom_front = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 209 0 0 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # Progressivism
+    progressivism = {
+        types = {
+
+            progressivism_generic = {
+            }
+
+            # Social Democracy
+            progressivism_social_democracy = {
+            }
+
+            # Centrist Reformism
+            progressivism_centrist_reformism = {
+            }
+
+            # Republicanism
+            progressivism_republicanism = {
+            }
+
+            # Constitutional Monarchy - Rizia
+            progressivism_constitutional_monarchy = {
+            }
+
+            # Liberal Progressevism
+            progressivism_liberal_progressevism = {
+            }
+
+            # Big Tent (Progressive)
+            progressivism_big_tent_progressive = {
+            }
+
+            # Council Democracy (Progressive)
+            progressivism_council_democracy_progressive = {
+            }
+
+            # Nurist progressivism
+            progressivism_nurist_progressivism = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 148 80 142 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # Liberalism
+    liberalism = {
+        types = {
+
+            liberalism_generic = {
+            }
+
+            # Walkerism - Arcasia
+            liberalism_walkerism = {
+            }
+
+            # Liberal Nationalism
+            liberalism_liberal_nationalism = {
+            }
+
+            # Sordish Liberalism - Sordland PFJP
+            liberalism_sordish_liberalism = {
+            }
+
+            # Wehzek Liberalism - Wehlen
+            liberalism_wehzek_liberalism = {
+            }
+
+            # Nurist Liberalism
+            liberalism_nurist_liberalism = {
+            }
+
+            # Golcondist Liberalism
+            liberalism_golcondist_liberalism = {
+            }
+
+            # Liberal Technocracy
+            liberalism_liberal_technocracy = {
+            }
+
+            # Liberal Agrarianism
+            liberalism_liberal_agrarianism = {
+            }
+
+            # Big Tent (Liberal)
+            liberalism_big_tent_liberal = {
+            }
+
+            # Liberal populism
+            liberalism_liberal_populism = {
+            }
+
+            # Radical Liberalism - Ultra Liberalism
+            liberalism_radical_liberalism = {
+            }
+
+            # Direct Democracy
+            liberalism_direct_democracy = {
+            }
+
+            # Council Democracy (Liberal)
+            liberalism_council_democracy_liberal = {
+            }
+
+            # AN-Council - Alliance of Nations Headquarters
+            liberalism_an_council = {
+            }
+
+            # Confederation (Liberal) - United Provinces of Chuo
+            liberalism_confederation_liberal = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 31 121 181 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # Conservatism
+    conservativism = {
+        types = {
+
+            conservatism_generic = {
+            }
+
+            # Wruhecist Conservatism
+            conservatism_wruhecist_conservatism = {
+            }
+
+            # Alvarezian Democracy - Lespia
+            conservatism_alvarezian_democracy = {
+            }
+
+            # Sordish Conservatism - USP Reformists
+            conservatism_sordish_conservatism = {
+            }
+
+            # Big Tent (Conservative)
+            conservatism_big_tent_conservative = {
+            }
+
+            # Conservative Populism
+            conservatism_conservative_populism = {
+            }
+
+            # Progressive Conservatism
+            conservatism_progressive_conservatism = {
+            }
+
+            # National Conservatism
+            conservatism_national_conservatism = {
+            }
+
+            # Council Democracy (Conservative)
+            conservatism_council_democracy_conservative = {
+            }
+
+            # Confederation (Conservative) - United Provinces of Chuo
+            conservatism_confederation_conservative = {
+            }
+
+            # Nurist democracy (Conservative)
+            conservatism_nurist_democracy = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 22 37 138 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # Anocracy
+    anocracy = {
+        types = {
+
+            anocracy_generic = {
+            }
+
+            # Sollism - Sordland
+            anocracy_sollism = {
+            }
+
+            # Neo-Sollism - Sordland
+            anocracy_neo_sollism = {
+            }
+
+            # Oligarchy - Lespia, Sordland and Arcasia
+            anocracy_oligarchy = {
+            }
+
+            # Corporatocracy - Lespia and Arcasia
+            anocracy_corporatocracy = {
+            }
+
+            # Kleptocracy
+            anocracy_kleptocracy = {
+            }
+
+            # Narcocracy
+            anocracy_narcocracy = {
+            }
+
+            # Controlled Democracy
+            anocracy_controlled_democracy = {
+            }
+
+            # Rigth Wing Populism
+            anocracy_rigth_wing_populism = {
+            }
+
+            # Provisional Government
+            anocracy_provisional_government = {
+            }
+
+            # Dominant Party Democracy
+            anocracy_dominant_party_democracy = {
+            }
+
+            # Enforced Democracy
+            anocracy_enforced_democracy = {
+            }
+
+            # Military Democracy
+            anocracy_military_democracy = {
+            }
+
+            # Democratic Theocracy
+            anocracy_democratic_theocracy = {
+            }
+
+            # Directorial System
+            anocracy_directorial_system = {
+            }
+
+            # Elective Monarchy
+            anocracy_elective_monarchy = {
+            }
+
+            # AN-Mandate
+            anocracy_an_mandate = {
+            }
+
+            # Dyarchic Theocracy - Holy Free City of Wahr
+            anocracy_dyarchic_theocracy = {
+            }
+
+            # Mercenary State
+            anocracy_mercenary_state = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 135 135 140 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # Paternal Autocracy
+    paternal_despotism = {
+        types = {
+
+            paternal_despotism_generic = {
+            }
+
+            # Absolute Monarchy - Yudan Dynasty
+            paternal_despotism_absolute_monarchy = {
+            }
+
+            # Fundamentalist Golcondism
+            paternal_despotism_fundamentalist_golcondism = {
+            }
+
+            # Fundamentalist Wruhecism
+            paternal_despotism_fundamentalist_wruhecism = {
+            }
+
+            # Theocracy
+            paternal_despotism_theocracy = {
+            }
+
+            # Rizian Theocracy - Rizia
+            paternal_despotism_rizian_theocracy = {
+            }
+
+            # Rumburgian Monarchism - Rumburg
+            paternal_despotism_rumburgian_monarchism = {
+            }
+
+            # Rizian Monarchism - Rizia
+            paternal_despotism_rizian_monarchism = {
+            }
+
+            # Colonial Government
+            paternal_despotism_colonial_government = {
+            }
+
+            # National Populism
+            paternal_despotism_national_populism = {
+            }
+
+            # National Patriotism
+            paternal_despotism_national_patriotism = {
+            }
+
+            # Warlordism
+            paternal_despotism_warlordism = {
+            }
+
+            # Personalistic Dictatorship
+            paternal_despotism_personalistic_dictatorship = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 54 54 54 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+
+    # National Populist
+    national_populism = {
+        types = {
+
+            national_populism_generic = {
+            }
+
+            # Ultranationalism
+            national_populism_ultranationalism = {
+            }
+
+            # Ultranationalism - National Front Party of Sordland
+            national_populism_sordish_ultranationalism = {
+            }
+
+            # Totalism
+            national_populism_totalism = {
+            }
+
+            # Aristocratic Totalism
+            national_populism_aristocratic_totalism = {
+            }
+
+            # Theocratic Totalism
+            national_populism_theocratic_totalism = {
+            }
+
+            # Luderinism - Black Battalion of Sordland
+            national_populism_luderinism = {
+            }
+
+            # National Monarchism
+            national_populism_national_monarchism = {
+            }
+
+            # Rizian Absolutism - Rizia
+            national_populism_rizian_absolutism = {
+            }
+
+            # Integralism
+            national_populism_integralism = {
+            }
+
+            # Military Junta - Sordland
+            national_populism_military_junta = {
+            }
+
+            # Militarism
+            national_populism_militarism = {
+            }
+
+            # Ultra Militarism
+            national_populism_ultra_militarism = {
+            }
+
+            # Ethno-Nationalism
+            national_populism_ethno_nationalism = {
+            }
+
+            # Nationalism
+            national_populism_nationalism = {
+            }
+
+            # Ultra-Nationalism
+            national_populism_ultra_nationalism = {
+            }
+
+            # Bludish Nationalism - Bludia
+            national_populism_bludish_nationalism = {
+            }
+
+            # National Malenyevism - Smolak's Wehlen
+            national_populism_national_malenyevism = {
+            }
+
+            # Royal Dictatorsphip - Rumburg
+            national_populism_royal_dictatorsphip = {
+            }
+
+        }
+        dynamic_faction_names = { }
+        color = { 92 58 20 }
+        rules = {
+            can_force_government = no
+            can_puppet = no
+            can_join_factions = no
+            can_create_factions = no
+            can_send_volunteers = yes
+        }
+        ai_neutral = yes
+        can_be_boosted = no
+    }
+}

@@ -1,0 +1,1519 @@
+{
+    "source": "00_traits(1).txt",
+    "army_personality": [
+        "old_guard",
+        "brilliant_strategist",
+        "inflexible_strategist",
+        "politically_connected",
+        "brave",
+        "war_hero",
+        "career_officer",
+        "trait_cautious",
+        "trait_reckless",
+        "media_personality",
+        "harsh_leader",
+        "infantry_officer",
+        "cavalry_officer",
+        "armor_officer",
+        "engineer_officer",
+        "motivated",
+        "exiled_leader",
+        "promoted_from_the_ranks",
+        "inspirational_bagpiper",
+        "loyalty_to_britain",
+        "loyalty_to_pakistan",
+        "loyalty_to_india",
+        "IRQ_golden_square_member",
+        "PRC_survivor_of_the_long_march",
+        "SIC_dubious_loyalty",
+        "YUN_dubious_loyalty",
+        "CHI_dubious_loyalty",
+        "XSM_dubious_loyalty"
+    ],
+    "field_marshal": [
+        "logistics_wizard",
+        "offensive_doctrine",
+        "defensive_doctrine",
+        "fast_planner",
+        "thorough_planner",
+        "unyielding_defender",
+        "aggressive_assaulter",
+        "organisational_leader",
+        "inspirational_leader",
+        "expert_delegator"
+    ],
+    "corps_commander": [
+        "bearer_of_artillery",
+        "organizer",
+        "cavalry_leader",
+        "infantry_leader",
+        "skilled_staffer",
+        "trickster",
+        "winter_specialist",
+        "adaptable",
+        "winter_expert",
+        "trait_engineer",
+        "panzer_leader",
+        "commando",
+        "desert_fox",
+        "swamp_fox",
+        "trait_mountaineer",
+        "hill_fighter",
+        "jungle_rat",
+        "ranger",
+        "urban_assault_specialist",
+        "naval_invader",
+        "panzer_expert",
+        "combined_arms_expert",
+        "cavalry_expert",
+        "fortress_buster",
+        "scavenger",
+        "infantry_expert",
+        "ambusher",
+        "invader_ii",
+        "naval_liason",
+        "skirmisher",
+        "paratrooper",
+        "camouflage_expert",
+        "expert_improviser",
+        "guerilla_fighter"
+    ],
+    "definitions": {
+        "old_guard": {
+            "name": "old_guard",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\told_guard = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\tmax_dig_in = 1\n\t\t}\n\t\t\n\t\tnon_shared_modifier = {\n\t\t\texperience_gain_factor = -0.25\n\t\t}\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t}"
+        },
+        "brilliant_strategist": {
+            "name": "brilliant_strategist",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tbrilliant_strategist = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tattack_skill = 1\n\t\tplanning_skill = 1\n\t\t\n\t\tattack_skill_factor = 1\n\t\tplanning_skill_factor = 1\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t}"
+        },
+        "inflexible_strategist": {
+            "name": "inflexible_strategist",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tinflexible_strategist = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tdefense_skill = 1\n\t\tlogistics_skill = 1\n\t\t\n\t\tdefense_skill_factor = 1\n\t\tlogistics_skill_factor = 1\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\n\t\t\tmodifier = {\n\t\t\t\tis_army_leader = yes\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t}"
+        },
+        "politically_connected": {
+            "name": "politically_connected",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tpolitically_connected = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnon_shared_modifier = {\n\t\t\texperience_gain_factor = -0.1\n\t\t\tpromote_cost_factor = -0.5\n\t\t}\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1  \n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tis_army_leader = yes\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tis_navy_leader = yes\n\t\t\t\tFROM = { has_idea = best_of_the_best_naval_academy_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = naval_academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t\tplanning_skill_factor = 1\n\t\tlogistics_skill_factor = 1\n\t}"
+        },
+        "brave": {
+            "name": "brave",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tbrave = {\n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\torg_loss_at_low_org_factor = -0.1\n\t\t}\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0\n\t\t}\n\t\t\n\t\tdefense_skill = 1\n\t}"
+        },
+        "war_hero": {
+            "name": "war_hero",
+            "category": "army_personality",
+            "leader_type": "{ land navy }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\twar_hero = { \n\t\ttype = { land navy }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnon_shared_modifier = { # WARNING! Changing the value of these modifiers requires changing them also in the tooltip ITA_heroes_of_the_nation_general_traits_tt\n\t\t\tpromote_cost_factor = -0.5\n\t\t\treassignment_duration_factor = 0.5   # +50% cost to replace leader\n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  # Scripted starting leaders only\n\t\t}\n\t\tattack_skill_factor = 1\n\t\tplanning_skill_factor = 1\n\t}"
+        },
+        "career_officer": {
+            "name": "career_officer",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tcareer_officer = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnon_shared_modifier = {\n\t\t\tpromote_cost_factor = -0.25\n\t\t}\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t\tplanning_skill_factor = 1\n\t\tlogistics_skill_factor = 1\n\t}"
+        },
+        "trait_cautious": {
+            "name": "trait_cautious",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\ttrait_cautious = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\tplanning_speed = -0.20\n\t\t\twounded_chance_factor = -0.5\n\t\t}\n\t\t\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\thas_trait = trait_reckless\n\t\t\t\tfactor = 0 \n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t\t\n\t\tdefense_skill_factor = 1\n\t\tlogistics_skill_factor = 1\n\t}"
+        },
+        "trait_reckless": {
+            "name": "trait_reckless",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\ttrait_reckless = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\tplanning_speed = 0.20\n\t\t\twounded_chance_factor = 0.5  # +50% chance to get wounded\n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\thas_trait = trait_cautious\n\t\t\t\tfactor = 0 \n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t\tattack_skill_factor = 1\n\t\tdefense_skill_factor = -1\n\t\tplanning_skill_factor = 1\n\t}"
+        },
+        "media_personality": {
+            "name": "media_personality",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tmedia_personality = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnon_shared_modifier = {\n\t\t\treassignment_duration_factor = 1   # +100% cost to replace leader\n\t\t}\n\t\t\n\t\tattack_skill_factor = 1\n\t\tdefense_skill_factor = 1\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t}"
+        },
+        "harsh_leader": {
+            "name": "harsh_leader",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tharsh_leader = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tattack_skill = 1\n\n\t\tmodifier = {\n\t\t\tarmy_morale_factor = -0.10\n\t\t}\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t}\n\t\t\n\t\tattack_skill_factor = 1\n\t\tlogistics_skill_factor = 1\n\t}"
+        },
+        "bearer_of_artillery": {
+            "name": "bearer_of_artillery",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tbearer_of_artillery = { # Reserved for Wojtek  \n\t\ttype = corps_commander\n\t\t\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\tarmy_artillery_attack_factor = 0.15\n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0\n\t\t}\n\t}"
+        },
+        "infantry_officer": {
+            "name": "infantry_officer",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tinfantry_officer = { \n\t\ttype = land\n\t\ttrait_type = personality_trait \n\t\t\n\t\tunit_trigger = {\n\t\t\tOR = {\n\t\t\t\tdivision_has_majority_template = infantry\n\t\t\t\tdivision_has_majority_template = bicycle_battalion\n\t\t\t\tdivision_has_majority_template = marine\n\t\t\t\tdivision_has_majority_template = mountaineers\n\t\t\t\tdivision_has_majority_template = paratrooper\n\t\t\t\tdivision_has_majority_template = penal_battalion\n\t\t\t\t\n\t\t\t\towner = {\n\t\t\t\t\thas_idea = mass_assault_academy_spirit\n\t\t\t\t}\n\t\t\t}\n\t\t\towner = {\n\t\t\t\tNOT = {\n\t\t\t\t\tOR = {\n\t\t\t\t\t\thas_idea = best_of_the_best_spirit\n\t\t\t\t\t\thas_idea = academy_scholarships_spirit\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\ttrait_xp_factor = {\n\t\t\tinfantry_leader = 1     #+100%\n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { \n\t\t\t\t\thas_idea = mass_assault_academy_spirit\n\t\t\t\t}\n\t\t\t\tfactor = 2\n\t\t\t}\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { \n\t\t\t\t\thas_dlc = \"By Blood Alone\"\n\t\t\t\t}\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t}\n\t\tdefense_skill_factor = 1\n\t\tplanning_skill_factor = 1\n\t}"
+        },
+        "cavalry_officer": {
+            "name": "cavalry_officer",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tcavalry_officer = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\tunit_type = {\n\t\t\ttype = cavalry\n\t\t\ttype = camelry\n\t\t\ttype = motorized\n\t\t\ttype = mechanized\n\t\t}\n\t\t\n\t\tunit_trigger = {\n\t\t\tOR = {\n\t\t\t\tdivision_has_majority_template = cavalry\n\t\t\t\tdivision_has_majority_template = camelry\n\t\t\t\tdivision_has_majority_template = motorized\n\t\t\t\tdivision_has_majority_template = mechanized\n\t\t\t}\n\t\t\towner = {\n\t\t\t\tNOT = {\n\t\t\t\t\tOR = {\n\t\t\t\t\t\thas_idea = best_of_the_best_spirit\n\t\t\t\t\t\thas_idea = academy_scholarships_spirit\n\t\t\t\t\t\thas_idea = SOV_purged_junior_army_officers_3\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\ttrait_xp_factor = {\n\t\t\tcavalry_leader = 1     #+100%\n\t\t}\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { \n\t\t\t\t\thas_dlc = \"By Blood Alone\"\n\t\t\t\t}\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t}\n\t\t\n\t\tattack_skill_factor = 1\n\t\tlogistics_skill_factor = 1\n\t}"
+        },
+        "armor_officer": {
+            "name": "armor_officer",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tarmor_officer = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\ttrait_xp_factor = {\n\t\t\tpanzer_leader = 1     #+100%\n\t\t}\n\t\t\n\t\tunit_trigger = {\n\t\t\tOR = {\n\t\t\t\tdivision_has_majority_template = light_armor\n\t\t\t\tdivision_has_majority_template = medium_armor\n\t\t\t\tdivision_has_majority_template = heavy_armor\n\t\t\t\tdivision_has_majority_template = super_heavy_armor\n\t\t\t\t\n\t\t\t\towner = {\n\t\t\t\t\thas_idea = mobile_warfare_academy_spirit\n\t\t\t\t}\n\t\t\t\t\n\t\t\t}\n\t\t\towner = {\n\t\t\t\tNOT = {\n\t\t\t\t\tOR = {\n\t\t\t\t\t\thas_idea = best_of_the_best_spirit\n\t\t\t\t\t\thas_idea = academy_scholarships_spirit\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { \n\t\t\t\t\thas_idea = mobile_warfare_academy_spirit\n\t\t\t\t}\n\t\t\t\tfactor = 2\n\t\t\t}\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { \n\t\t\t\t\thas_dlc = \"By Blood Alone\"\n\t\t\t\t}\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t}\n\t\tattack_skill_factor = 1\n\t\tplanning_skill_factor = 1\n\t}"
+        },
+        "engineer_officer": {
+            "name": "engineer_officer",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tengineer_officer = { \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\ttrait_xp_factor = {\n\t\t\ttrait_engineer = 1     #+100%\n\t\t}\n\t\t\n\t\tunit_trigger = {\n\t\t\tOR = {\n\t\t\t\tdivision_has_battalion_in_template = engineer\n\t\t\t\tdivision_has_battalion_in_template = light_flame_tank\n\t\t\t\tdivision_has_battalion_in_template = medium_flame_tank\n\t\t\t\tdivision_has_battalion_in_template = heavy_flame_tank\n\t\t\t\towner = {\n\t\t\t\t\thas_idea = superior_firepower_academy_spirit\n\t\t\t\t}\n\t\t\t}\n\t\t\towner = {\n\t\t\t\tNOT = {\n\t\t\t\t\tOR = {\n\t\t\t\t\t\thas_idea = best_of_the_best_spirit\n\t\t\t\t\t\thas_idea = academy_scholarships_spirit\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 1\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = superior_firepower_academy_spirit }\n\t\t\t\tfactor = 2\n\t\t\t}\n\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = best_of_the_best_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_idea = academy_scholarships_spirit }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t\tmodifier = {\n\t\t\t\tFROM = { has_dlc = \"By Blood Alone\" }\n\t\t\t\tfactor = 0\n\t\t\t}\n\t\t\t\n\t\t}\n\t\tattack_skill_factor = 1\n\t\tplanning_skill_factor = 1\n\t}"
+        },
+        "logistics_wizard": {
+            "name": "logistics_wizard",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "0",
+            "gui_column": "",
+            "parents_any": [
+                "organizer"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tlogistics_wizard = { \n\t\ttype = field_marshal\n\t\t\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\t\n\t\tfield_marshal_modifier = {\n\t\t\tsupply_consumption_factor = -0.15\n\t\t}\n\t\tenable_ability = extra_suplies\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tgui_row = 0\n\t\ttrait_type = assignable_trait\n\t\tany_parent = {organizer}\n\t}"
+        },
+        "offensive_doctrine": {
+            "name": "offensive_doctrine",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "5",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "defensive_doctrine"
+            ],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_offensive_1",
+                "expert": "army_chief_offensive_2",
+                "genius": "army_chief_offensive_3"
+            },
+            "definition": "\toffensive_doctrine = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\torg_loss_when_moving = -0.30\n\t\t}\n\t\t\n\t\tattack_skill = 1\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_offensive_1\n\t\texpert_advisor_trait = army_chief_offensive_2\n\t\tgenius_advisor_trait = army_chief_offensive_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = assignable_trait\n\t\tmutually_exclusive = defensive_doctrine\n\t\tgui_row = 5\n\n\t}"
+        },
+        "defensive_doctrine": {
+            "name": "defensive_doctrine",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "6",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "offensive_doctrine"
+            ],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_entrenchment_1",
+                "expert": "army_chief_entrenchment_2",
+                "genius": "army_chief_entrenchment_3"
+            },
+            "definition": "\tdefensive_doctrine = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tmax_dig_in_factor = 0.30\n\t\t}\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_entrenchment_1\n\t\texpert_advisor_trait = army_chief_entrenchment_2\n\t\tgenius_advisor_trait = army_chief_entrenchment_3\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = assignable_trait\n\t\tmutually_exclusive = offensive_doctrine\n\t\tgui_row = 6\n\t}"
+        },
+        "fast_planner": {
+            "name": "fast_planner",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "1",
+            "gui_column": "",
+            "parents_any": [
+                "organizer"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "thorough_planner"
+            ],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_reform_1",
+                "expert": "army_chief_reform_2",
+                "genius": "army_chief_reform_3"
+            },
+            "definition": "\tfast_planner = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tplanning_speed = 0.25\n\t\t}\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_reform_1\n\t\texpert_advisor_trait = army_chief_reform_2\n\t\tgenius_advisor_trait = army_chief_reform_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tgui_row = 1\n\t\tany_parent = { organizer }\n\t\tmutually_exclusive = thorough_planner\n\t\ttrait_type = assignable_trait\n\t}"
+        },
+        "thorough_planner": {
+            "name": "thorough_planner",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "2",
+            "gui_column": "",
+            "parents_any": [
+                "organizer"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "fast_planner"
+            ],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_planning_1",
+                "expert": "army_chief_planning_2",
+                "genius": "army_chief_planning_3"
+            },
+            "definition": "\tthorough_planner = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tmax_planning = 0.1\n\t\t}\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_planning_1\n\t\texpert_advisor_trait = army_chief_planning_2\n\t\tgenius_advisor_trait = army_chief_planning_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tgui_row = 2\n\t\tany_parent = { organizer }\n\t\tmutually_exclusive = fast_planner\n\t\ttrait_type = assignable_trait\n\t}"
+        },
+        "unyielding_defender": {
+            "name": "unyielding_defender",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "3",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "aggressive_assaulter"
+            ],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_defensive_1",
+                "expert": "army_chief_defensive_2",
+                "genius": "army_chief_defensive_3"
+            },
+            "definition": "\tunyielding_defender = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\n\t\tprerequisites = {\n\t\t\thas_trait = inflexible_strategist\n\t\t}\n\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tdefence = 0.10\n\t\t}\n\t\tcustom_effect_tooltip = INCREASED_COUNTERATTACK_CHANCE\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_defensive_1\n\t\texpert_advisor_trait = army_chief_defensive_2\n\t\tgenius_advisor_trait = army_chief_defensive_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tgui_row = 3\n\t\ttrait_type = assignable_trait\n\t\tmutually_exclusive = aggressive_assaulter\n\n\t}"
+        },
+        "aggressive_assaulter": {
+            "name": "aggressive_assaulter",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "4",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "unyielding_defender"
+            ],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_maneuver_1",
+                "expert": "army_chief_maneuver_2",
+                "genius": "army_chief_maneuver_3"
+            },
+            "definition": "\taggressive_assaulter = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tprerequisites = {\n\t\t\thas_trait = brilliant_strategist\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tbreakthrough_factor = 0.10\n\t\t}\n\t\tcustom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_maneuver_1\n\t\texpert_advisor_trait = army_chief_maneuver_2\n\t\tgenius_advisor_trait = army_chief_maneuver_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tgui_row = 4\n\t\ttrait_type = assignable_trait\n\t\tmutually_exclusive = unyielding_defender\n\n\t}"
+        },
+        "organisational_leader": {
+            "name": "organisational_leader",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "7",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_organizational_1",
+                "expert": "army_chief_organizational_2",
+                "genius": "army_chief_organizational_3"
+            },
+            "definition": "\torganisational_leader = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tland_reinforce_rate = 0.02\n\t\t}\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_organizational_1\n\t\texpert_advisor_trait = army_chief_organizational_2\n\t\tgenius_advisor_trait = army_chief_organizational_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = assignable_trait\n\n\t\tgui_row = 7\n\t}"
+        },
+        "inspirational_leader": {
+            "name": "inspirational_leader",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "8",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_morale_1",
+                "expert": "army_chief_morale_2",
+                "genius": "army_chief_morale_3"
+            },
+            "definition": "\tinspirational_leader = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tfield_marshal_modifier = {\n\t\t\tarmy_morale_factor = 0.10\n\t\t}\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_morale_1\n\t\texpert_advisor_trait = army_chief_morale_2\n\t\tgenius_advisor_trait = army_chief_morale_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = assignable_trait\n\t\tgui_row = 8\n\t}"
+        },
+        "expert_delegator": {
+            "name": "expert_delegator",
+            "category": "field_marshal",
+            "leader_type": "field_marshal",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "15",
+            "gui_column": "",
+            "parents_any": [
+                "skilled_staffer"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "army_chief",
+                "specialist": "army_chief_drill_1",
+                "expert": "army_chief_drill_2",
+                "genius": "army_chief_drill_3"
+            },
+            "definition": "\texpert_delegator = { \n\t\ttype = field_marshal\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\t\n\t\tfield_marshal_modifier = {\n\t\t\tmax_army_group_size = 2\n\t\t}\n\t\t\n\t\tslot = army_chief\n\t\tspecialist_advisor_trait = army_chief_drill_1\n\t\texpert_advisor_trait = army_chief_drill_2\n\t\tgenius_advisor_trait = army_chief_drill_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { skilled_staffer }\n\t\tgui_row = 15\n\t}"
+        },
+        "organizer": {
+            "name": "organizer",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "1000",
+            "gui_row": "0",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_regrouping_1",
+                "expert": "army_regrouping_2",
+                "genius": "army_regrouping_3"
+            },
+            "definition": "\torganizer = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tcheck_variable = { num_battle_plans > 0 }\n\t\t}\n\t\tcustom_gain_xp_trigger_tooltip = is_using_battle_plans\n\t\t\n\t\tcost = 1000\n\t\tmodifier = {\n\t\t\tplanning_speed = 0.1\n\t\t}\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_regrouping_1\n\t\texpert_advisor_trait = army_regrouping_2\n\t\tgenius_advisor_trait = army_regrouping_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 0\n\t}"
+        },
+        "cavalry_leader": {
+            "name": "cavalry_leader",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "1000",
+            "gui_row": "3",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_cavalry_1",
+                "expert": "army_cavalry_2",
+                "genius": "army_cavalry_3"
+            },
+            "definition": "\tcavalry_leader = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tset_temp_variable = { temp = num_units }\n\t\t\tmultiply_temp_variable = { temp = 0.4 }\n\t\t\tset_temp_variable = { cmm = num_cavalry }\n\t\t\tadd_to_temp_variable = { cmm = num_motorized }\n\t\t\tadd_to_temp_variable = { cmm = num_mechanized }\n\t\t\tcheck_variable = { cmm > temp }\n\t\t}\n\t\tcustom_gain_xp_trigger_tooltip = cavalary_ratio_over_40\n\t\t\n\t\tcost = 1000\n\t\tmodifier = {\n\t\t\tcavalry_attack_factor = 0.12\n\t\t\tmotorized_attack_factor = 0.12\n\t\t\tmechanized_attack_factor = 0.12\n\t\t}\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_cavalry_1\n\t\texpert_advisor_trait = army_cavalry_2\n\t\tgenius_advisor_trait = army_cavalry_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 3\n\t}"
+        },
+        "infantry_leader": {
+            "name": "infantry_leader",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "1000",
+            "gui_row": "6",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_infantry_1",
+                "expert": "army_infantry_2",
+                "genius": "army_infantry_3"
+            },
+            "definition": "\tinfantry_leader = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tset_temp_variable = { temp = num_units }\n\t\t\tmultiply_temp_variable = { temp = 0.8 }\n\t\t\tcheck_variable = { num_infantry > temp }\n\t\t}\n\t\tcustom_gain_xp_trigger_tooltip = infantry_ratio_over_80\n\t\t\n\t\tcost = 1000\n\t\tmodifier = {\n\t\t\tarmy_infantry_defence_factor = 0.13\n\t\t}\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_infantry_1\n\t\texpert_advisor_trait = army_infantry_2\n\t\tgenius_advisor_trait = army_infantry_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 6\n\t}"
+        },
+        "skilled_staffer": {
+            "name": "skilled_staffer",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "2000",
+            "gui_row": "15",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_logistics_1",
+                "expert": "army_logistics_2",
+                "genius": "army_logistics_3"
+            },
+            "definition": "\tskilled_staffer = { \n\t\ttype = corps_commander\n\t\tgain_xp_leader = {\n\t\t\tif = {\n\t\t\t\tlimit = { is_leading_army_group = yes }\n\t\t\t\tcheck_variable = { num_units > 99 }\n\t\t\t}\n\t\t\telse = {\n\t\t\t\tcheck_variable = { num_units > 23 }\n\t\t\t}\n\t\t}\n\t\tcustom_gain_xp_trigger_tooltip = fighting_with_enough_units\n\t\t\n\t\tcost = 2000\n\t\t\n\t\tcorps_commander_modifier = {\n\t\t\tmax_commander_army_size = 6\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tlogistics_skill_factor = 2\n\t\t\n\t\tgui_row = 15\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_logistics_1\n\t\texpert_advisor_trait = army_logistics_2\n\t\tgenius_advisor_trait = army_logistics_3\n\t}"
+        },
+        "trickster": {
+            "name": "trickster",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "500",
+            "gui_row": "13",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\ttrickster = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tOR = {\n\t\t\t\thas_flanked_opponent = yes\n\t\t\t\topponent = { has_flanked_opponent = yes }\n\t\t\t}\n\t\t}\n\t\tcustom_gain_xp_trigger_tooltip = has_flanked\n\t\t\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\trecon_factor = 0.25\n\t\t}\n\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 13\n\t}"
+        },
+        "winter_specialist": {
+            "name": "winter_specialist",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "500",
+            "gui_row": "7",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\twinter_specialist = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\ttemperature < -10\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\twinter_attrition_factor = -0.5\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 7\n\t}"
+        },
+        "adaptable": {
+            "name": "adaptable",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_terrain_trait",
+            "cost": "1000",
+            "gui_row": "3",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tadaptable = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tmodifier = {\n\t\t\tterrain_penalty_reduction = 0.30\n\t\t\tacclimatization_cold_climate_gain_factor = 0.1\n\t\t\tacclimatization_hot_climate_gain_factor = 0.1\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_terrain_trait\n\t\tgui_row = 3\n\t\t\t\t\n\t\tparent = {\n\t\t\ttraits = {\n\t\t\t\tdesert_fox\n\t\t\t\tswamp_fox\n\t\t\t\ttrait_mountaineer\n\t\t\t\thill_fighter\n\t\t\t\tjungle_rat\n\t\t\t\tranger\n\t\t\t\turban_assault_specialist\n\t\t\t\twinter_specialist\n\t\t\t}\n\t\t\tnum_parents_needed = 2\n\t\t} \n\t}"
+        },
+        "winter_expert": {
+            "name": "winter_expert",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_terrain_trait",
+            "cost": "",
+            "gui_row": "7",
+            "gui_column": "",
+            "parents_any": [
+                "winter_specialist"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\twinter_expert = { \n\t\ttype = corps_commander\n\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\n\t\tmodifier = {\n\t\t\tacclimatization_cold_climate_gain_factor = 0.40\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tany_parent = { winter_specialist }\n\n\t\ttrait_type = assignable_terrain_trait\n\t\tgui_row = 7\n\t}"
+        },
+        "trait_engineer": {
+            "name": "trait_engineer",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "700",
+            "gui_row": "4",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_entrenchment_1",
+                "expert": "army_entrenchment_2",
+                "genius": "army_entrenchment_3"
+            },
+            "definition": "\ttrait_engineer = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tOR = {\n\t\t\t\thas_combat_modifier = fort_attack\n\t\t\t\thas_combat_modifier = river_crossing\n\t\t\t}\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\triver = {\n\t\t\t\tattack = 0.05\n\t\t\t}\n\t\t\tfort = {\n                attack = 0.1\n            }\n\t\t}\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_entrenchment_1\n\t\texpert_advisor_trait = army_entrenchment_2\n\t\tgenius_advisor_trait = army_entrenchment_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 4\n\t}"
+        },
+        "panzer_leader": {
+            "name": "panzer_leader",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "700",
+            "gui_row": "1",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_armored_1",
+                "expert": "army_armored_2",
+                "genius": "army_armored_3"
+            },
+            "definition": "\tpanzer_leader = {\n \t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tset_temp_variable = { temp = num_units }\n\t\t\tmultiply_temp_variable = { temp = 0.4 }\n\t\t\tcheck_variable = { num_armored > temp }\n\t\t}\n\t\tcustom_gain_xp_trigger_tooltip = armored_ratio_over_40\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tarmy_armor_speed_factor = 0.05 \n\t\t\tarmy_armor_attack_factor = 0.16 \n\t\t}\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tattack_skill_factor = 2\n\t\t\n\t\tgui_row = 1\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_armored_1\n\t\texpert_advisor_trait = army_armored_2\n\t\tgenius_advisor_trait = army_armored_3\n\t}"
+        },
+        "commando": {
+            "name": "commando",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "700",
+            "gui_row": "10",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_commando_1",
+                "expert": "army_commando_2",
+                "genius": "army_commando_3"
+            },
+            "definition": "\tcommando = { \n \t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tOR = {\n\t\t\t\ttemperature < -15\n\t\t\t\ttemperature > 27\n\t\t\t\thas_combat_modifier = paradrop\n\t\t\t\thas_combat_modifier = amphibious_attack\n\t\t\t}\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tout_of_supply_factor = -0.25\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tgui_row = 10\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_commando_1\n\t\texpert_advisor_trait = army_commando_2\n\t\tgenius_advisor_trait = army_commando_3\n\t}"
+        },
+        "desert_fox": {
+            "name": "desert_fox",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "700",
+            "gui_row": "0",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tdesert_fox = { \n \t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = desert\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tdesert = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\tnew_commander_weight = {\n\t\t\tfactor = 100\n\t\t\t#modifier = {\n\t\t\t#\tfactor = 0\n\t\t\t#\tFROM = { NOT = { has_idea = theatre_training_spirit } }\n\t\t\t#}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 0\n\t}"
+        },
+        "swamp_fox": {
+            "name": "swamp_fox",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "700",
+            "gui_row": "1",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tswamp_fox = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = marsh\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tmarsh = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 1\n\t}"
+        },
+        "trait_mountaineer": {
+            "name": "trait_mountaineer",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "700",
+            "gui_row": "3",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\ttrait_mountaineer = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = mountain\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tmountain = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 3\n\t}"
+        },
+        "hill_fighter": {
+            "name": "hill_fighter",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "700",
+            "gui_row": "2",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\thill_fighter = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = hills\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\thills = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 2\n\t}"
+        },
+        "jungle_rat": {
+            "name": "jungle_rat",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "700",
+            "gui_row": "6",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tjungle_rat = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = jungle\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tjungle = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 6\n\t}"
+        },
+        "ranger": {
+            "name": "ranger",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "700",
+            "gui_row": "5",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tranger = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = forest\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tforest = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 5\n\t}"
+        },
+        "urban_assault_specialist": {
+            "name": "urban_assault_specialist",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_terrain_trait",
+            "cost": "500",
+            "gui_row": "4",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\turban_assault_specialist = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_fighting_in_terrain = urban\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\turban = {\n\t\t\t\tmovement = 0.05\n\t\t\t\tattack = 0.1\n\t\t\t\tdefence = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\ttrait_type = basic_terrain_trait\n\t\tgui_row = 4\n\t}"
+        },
+        "naval_invader": {
+            "name": "naval_invader",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "basic_trait",
+            "cost": "100",
+            "gui_row": "8",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "navy_amphibious_assault_1",
+                "expert": "navy_amphibious_assault_2",
+                "genius": "navy_amphibious_assault_3"
+            },
+            "definition": "\tnaval_invader = {\n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tis_amphibious_invasion = yes\n\t\t}\n\t\tcost = 100\n\t\tmodifier = {\n\t\t\tamphibious_invasion = 0.3 # 30% faster invasions\n\t\t\tinvasion_preparation = -0.3\n\t\t}\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = navy_amphibious_assault_1\n\t\texpert_advisor_trait = navy_amphibious_assault_2\n\t\tgenius_advisor_trait = navy_amphibious_assault_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 8\n\t}"
+        },
+        "panzer_expert": {
+            "name": "panzer_expert",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "1000",
+            "gui_row": "1",
+            "gui_column": "",
+            "parents_any": [
+                "panzer_leader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "combined_arms_expert",
+                "cavalry_expert"
+            ],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tpanzer_expert = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 1000\n\t\tmodifier = {\n\t\t\tarmy_armor_defence_factor = 0.10 \n\t\t}\n\t\t\n\t\tcustom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { panzer_leader }\n\t\t\n\t\tmutually_exclusive = combined_arms_expert\n\t\tmutually_exclusive = cavalry_expert\n\t\t\n\t\tgui_row = 1\n\t}"
+        },
+        "combined_arms_expert": {
+            "name": "combined_arms_expert",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "2",
+            "gui_column": "",
+            "parents_any": [
+                "cavalry_leader",
+                "panzer_leader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "panzer_expert",
+                "cavalry_expert"
+            ],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_CombinedArms_1",
+                "expert": "army_CombinedArms_2",
+                "genius": "army_CombinedArms_3"
+            },
+            "definition": "\tcombined_arms_expert = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tmotorized_defence_factor = 0.15\n\t\t\tmechanized_defence_factor = 0.15\n\t\t}\n\t\t\n\t\tcustom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_CombinedArms_1\n\t\texpert_advisor_trait = army_CombinedArms_2\n\t\tgenius_advisor_trait = army_CombinedArms_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { cavalry_leader panzer_leader }\n\t\t\n\t\tmutually_exclusive = panzer_expert\n\t\tmutually_exclusive = cavalry_expert\n\t\t\n\t\t\n\t\tgui_row = 2\n\t}"
+        },
+        "cavalry_expert": {
+            "name": "cavalry_expert",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "3",
+            "gui_column": "",
+            "parents_any": [
+                "cavalry_leader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "panzer_expert",
+                "combined_arms_expert"
+            ],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tcavalry_expert = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\t#cavalry_attack_factor = 0.10\n\t\t\tcavalry_defence_factor = 0.10\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { cavalry_leader }\n\t\t\n\t\tmutually_exclusive = panzer_expert\n\t\tmutually_exclusive = combined_arms_expert\n\t\t\n\t\tgui_row = 3\n\t}"
+        },
+        "fortress_buster": {
+            "name": "fortress_buster",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "700",
+            "gui_row": "4",
+            "gui_column": "",
+            "parents_any": [
+                "trait_engineer"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "scavenger"
+            ],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_artillery_1",
+                "expert": "army_artillery_2",
+                "genius": "army_artillery_3"
+            },
+            "definition": "\tfortress_buster = {\n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\tOR = {\n\t\t\t\thas_combat_modifier = fort_attack\n\t\t\t\tdig_in > 10\n\t\t\t}\n\t\t}\n\t\tcost = 700\n\t\tmodifier = {\n\t\t\tfort = {\n\t\t\t\tattack = 0.15\n\t\t\t}\n\t\t}\n\t\tenable_ability = siege_artillery\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_artillery_1\n\t\texpert_advisor_trait = army_artillery_2\n\t\tgenius_advisor_trait = army_artillery_3\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tgui_row = 4\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { trait_engineer }\n\t\tmutually_exclusive = scavenger\n\t}"
+        },
+        "scavenger": {
+            "name": "scavenger",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "5",
+            "gui_column": "",
+            "parents_any": [
+                "trait_engineer"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "fortress_buster"
+            ],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tscavenger = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tequipment_capture = 0.03\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\t\n\t\tgui_row = 5\n\t\tany_parent = { trait_engineer }\n\t\tmutually_exclusive = fortress_buster\n\t}"
+        },
+        "infantry_expert": {
+            "name": "infantry_expert",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "6",
+            "gui_column": "",
+            "parents_any": [
+                "infantry_leader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "ambusher"
+            ],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tinfantry_expert = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tarmy_infantry_attack_factor = 0.10\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\n\t\tmutually_exclusive = ambusher\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { infantry_leader }\n\t\tgui_row = 6\n\t}"
+        },
+        "ambusher": {
+            "name": "ambusher",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "7",
+            "gui_column": "",
+            "parents_any": [
+                "infantry_leader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [
+                "infantry_expert"
+            ],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tambusher = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tmax_dig_in = 5\n\t\t\trecon_factor_while_entrenched = 0.25\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tmutually_exclusive = infantry_expert\n\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { infantry_leader }\n\t\t\n\t\tgui_row = 7\n\t}"
+        },
+        "invader_ii": {
+            "name": "invader_ii",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "8",
+            "gui_column": "",
+            "parents_any": [
+                "naval_invader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tinvader_ii = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\textra_marine_supply_grace = 240\n\t\t}\n\t\t\n\t\tenable_ability = faster_naval_invasion_planning\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { naval_invader }\n\t\t\n\t\tgui_row = 8\n\t}"
+        },
+        "naval_liason": {
+            "name": "naval_liason",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "9",
+            "gui_column": "",
+            "parents_any": [
+                "naval_invader"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tnaval_liason = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tshore_bombardment_bonus = 0.25\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { naval_invader }\n\t\t\n\t\tgui_row = 9\n\t}"
+        },
+        "skirmisher": {
+            "name": "skirmisher",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "10",
+            "gui_column": "",
+            "parents_any": [
+                "commando"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tskirmisher = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tenable_ability = probing_attack\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { commando }\n\t\t\n\t\tgui_row = 10\n\t}"
+        },
+        "paratrooper": {
+            "name": "paratrooper",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "11",
+            "gui_column": "",
+            "parents_any": [
+                "commando"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tparatrooper = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\textra_paratrooper_supply_grace = 240\n\t\t}\n\t\t\n\t\tenable_ability = glider_planes\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { commando }\n\t\t\n\t\tgui_row = 11\n\t}"
+        },
+        "camouflage_expert": {
+            "name": "camouflage_expert",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "12",
+            "gui_column": "",
+            "parents_any": [
+                "commando"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "high_command",
+                "specialist": "army_concealment_1",
+                "expert": "army_concealment_2",
+                "genius": "army_concealment_3"
+            },
+            "definition": "\tcamouflage_expert = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tcas_damage_reduction = 0.5\n\t\t\tair_superiority_bonus_in_combat = -0.5\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tslot = high_command\n\t\tspecialist_advisor_trait = army_concealment_1\n\t\texpert_advisor_trait = army_concealment_2\n\t\tgenius_advisor_trait = army_concealment_3\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { commando }\n\t\t\n\t\tgui_row = 12\n\t}"
+        },
+        "expert_improviser": {
+            "name": "expert_improviser",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "13",
+            "gui_column": "",
+            "parents_any": [
+                "trickster"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\texpert_improviser = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tdesert = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\thills = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\tforest = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\tmountain = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\tplains = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\turban = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\tjungle = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t\tmarsh = {\n\t\t\t\tmovement = 0.1\n\t\t\t}\n\t\t}\n\t\t\n\t\toverride_effect_tooltip = expert_improviser_movement_bonus_on_land\n\t\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\tenable_ability = makeshift_bridges\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { trickster }\n\t\tprerequisites = {\n\t\t\tcheck_variable = { num_terrain_traits > 0 }\n\t\t}\n\t\tcustom_prerequisite_tooltip = needs_at_least_one_terrain\n\t\t\n\t\tgui_row = 13\n\t}"
+        },
+        "guerilla_fighter": {
+            "name": "guerilla_fighter",
+            "category": "corps_commander",
+            "leader_type": "corps_commander",
+            "trait_type": "assignable_trait",
+            "cost": "500",
+            "gui_row": "14",
+            "gui_column": "",
+            "parents_any": [
+                "trickster"
+            ],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tguerilla_fighter = { \n\t\ttype = corps_commander\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\tcost = 500\n\t\tmodifier = {\n\t\t\tdig_in_speed_factor = 0.5\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\t\n\t\ttrait_type = assignable_trait\n\t\tany_parent = { trickster }\n\t\t\n\t\tgui_row = 14\n\t}"
+        },
+        "motivated": {
+            "name": "motivated",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "status_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tmotivated = { \n\t\ttype = land\n\t\ttrait_type = status_trait\n\t\t\n\t\tattack_skill = 1\n\n\t\tnon_shared_modifier = {\n\t\t\tarmy_morale_factor = 0.10\n\t\t}\n\t}"
+        },
+        "exiled_leader": {
+            "name": "exiled_leader",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "exile",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\texiled_leader = {\n\t\ttype = land\n\t\ttrait_type = exile\n\t\tgain_xp = {\n\t\t\talways = no # not gainable\n\t\t}\n\t\t\n\t\tmodifier = {\n\t\t\texiled_divisions_attack_factor = 0.1\n\t\t\town_exiled_divisions_attack_factor = 0.05 \n\t\t\texiled_divisions_defense_factor = 0.1\n\t\t\town_exiled_divisions_defense_factor = 0.05\t\t\t\n\t\t}\n\t\t\n\t\tai_will_do = {\n\t\t\tfactor = 1\n\t\t}\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0\n\t\t}\n\t}"
+        },
+        "promoted_from_the_ranks": {
+            "name": "promoted_from_the_ranks",
+            "category": "army_personality",
+            "leader_type": "land",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tpromoted_from_the_ranks = {  \n\t\ttype = land\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\tpromote_cost_factor = 0.5\n\t\t\tplanning_speed = 0.1\n\t\t\trecon_factor = 0.05\n\t\t}\n\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0\n\t\t}\n\t}"
+        },
+        "inspirational_bagpiper": {
+            "name": "inspirational_bagpiper",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tinspirational_bagpiper = { \n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tmodifier = {\n\t\t\twounded_chance_factor = 0.65\n\t\t\texperience_gain_army_unit_factor = 0.1\n\t\t\tarmy_strength_factor = 0.1  \n\t\t}\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\t}"
+        },
+        "loyalty_to_britain": {
+            "name": "loyalty_to_britain",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tloyalty_to_britain = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\t}"
+        },
+        "loyalty_to_pakistan": {
+            "name": "loyalty_to_pakistan",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tloyalty_to_pakistan = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\t}"
+        },
+        "loyalty_to_india": {
+            "name": "loyalty_to_india",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tloyalty_to_india = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\t}"
+        },
+        "IRQ_golden_square_member": {
+            "name": "IRQ_golden_square_member",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tIRQ_golden_square_member = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\t}"
+        },
+        "PRC_survivor_of_the_long_march": {
+            "name": "PRC_survivor_of_the_long_march",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tPRC_survivor_of_the_long_march = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\n\t\tmodifier = {\n\t\t\tout_of_supply_factor = -0.1\n\t\t\tequipment_capture = 0.03\n\t\t}\n\t\t\n\t}"
+        },
+        "SIC_dubious_loyalty": {
+            "name": "SIC_dubious_loyalty",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tSIC_dubious_loyalty = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\n\t\tmodifier = {\n\t\t\t\n\t\t}\n\t\t\n\t}"
+        },
+        "YUN_dubious_loyalty": {
+            "name": "YUN_dubious_loyalty",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tYUN_dubious_loyalty = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\n\t\tmodifier = {\n\t\t\t\n\t\t}\n\t\t\n\t}"
+        },
+        "CHI_dubious_loyalty": {
+            "name": "CHI_dubious_loyalty",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tCHI_dubious_loyalty = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\n\t\tmodifier = {\n\t\t\t\n\t\t}\n\t\t\n\t}"
+        },
+        "XSM_dubious_loyalty": {
+            "name": "XSM_dubious_loyalty",
+            "category": "army_personality",
+            "leader_type": "{ land }",
+            "trait_type": "personality_trait",
+            "cost": "",
+            "gui_row": "",
+            "gui_column": "",
+            "parents_any": [],
+            "parents_all": [],
+            "mutually_exclusive": [],
+            "advisor_mappings": {
+                "slot": "",
+                "specialist": "",
+                "expert": "",
+                "genius": ""
+            },
+            "definition": "\tXSM_dubious_loyalty = {\n\t\ttype = { land }\n\t\ttrait_type = personality_trait\n\t\t\n\t\tnew_commander_weight = {\n\t\t\tfactor = 0  \n\t\t}\n\n\t\tmodifier = {\n\t\t\t\n\t\t}\n\t\t\n\t}"
+        }
+    }
+}
