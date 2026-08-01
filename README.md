@@ -179,7 +179,7 @@ A full credits page is available here:
 
 ### Core Credits
 
-- **Project creator and lead developer:** Jonas Vincent
+- **Project creator and lead developer:** Duke of Eskdaleton
 - **Project:** Beneath the Maroon Sky — Rumburg
 - **Application:** HOI4 Character Creator
 - **Development support:** OpenAI ChatGPT
