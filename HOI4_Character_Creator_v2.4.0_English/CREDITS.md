@@ -8,7 +8,7 @@ the Beneath the Maroon Sky Rumburg project.
 
 ## Application Development
 
-- application design and project direction: Jonas Vincent;
+- application design and project direction: Duke of Eskdaleton;
 - Python and CustomTkinter implementation;
 - HOI4 character, ideology, trait, localisation, portrait, and GFX export logic;
 - development and documentation support: OpenAI ChatGPT.
